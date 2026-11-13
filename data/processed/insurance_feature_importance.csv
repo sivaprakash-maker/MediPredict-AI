@@ -1,0 +1,9 @@
+Feature,Importance
+documents_complete,0.4458823315767969
+claim_amount,0.2586389525530316
+policy_tenure_years,0.09854416436019413
+customer_age,0.09692510087726039
+previous_claims,0.06370593914600835
+policy_type_Basic,0.013551523118471218
+policy_type_Standard,0.013007324834135567
+policy_type_Premium,0.009744663534101918

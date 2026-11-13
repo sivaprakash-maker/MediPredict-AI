@@ -1,5 +1,6 @@
-# Virtual environment
+# Virtual environments
 .venv/
+venv/
 
 # Python
 __pycache__/
@@ -16,11 +17,7 @@ __pycache__/
 .vscode/
 .idea/
 
-# ML models
-models/*.pkl
-models/*.joblib
-
-# FAISS
+# Temporary ML artifacts
 faiss_index/
 
 # Logs

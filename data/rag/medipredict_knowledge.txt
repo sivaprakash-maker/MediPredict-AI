@@ -1,0 +1,165 @@
+
+PROJECT: MediPredict AI
+
+OVERVIEW:
+MediPredict AI is a medical e-commerce and
+insurance intelligence demonstration platform
+built using Python, Machine Learning and LLM.
+
+All datasets used in this project are synthetic.
+
+MODULE 1: ORDER QUANTITY PREDICTION
+
+Algorithm: Random Forest Regression.
+
+Purpose:
+Predict medical product order quantity.
+
+Dataset:
+1000 synthetic medical e-commerce orders.
+
+Input features:
+product_id, category, unit_price, discount,
+customer_age, city, payment_method,
+inventory_before, month, day_of_week,
+is_weekend.
+
+Target:
+quantity.
+
+Evaluation:
+MAE: 0.8648
+RMSE: 1.0662
+R2: 0.7373
+
+MODULE 2: INSURANCE CLAIM REVIEW
+
+Algorithm: Random Forest Classification.
+
+Purpose:
+Identify insurance claims that may require
+additional human review.
+
+Target:
+review_flag.
+
+Class 0: Routine.
+Class 1: Review Flag.
+
+Input features:
+customer_age, policy_type,
+policy_tenure_years, claim_amount,
+documents_complete, previous_claims.
+
+Evaluation:
+Accuracy: 0.85
+Precision for review class: 0.86
+Recall for review class: 0.55
+F1-score for review class: 0.67
+
+Important:
+This is a synthetic demonstration.
+The model does not automatically reject claims.
+Human review is required.
+
+MODULE 3: CUSTOMER SEGMENTATION
+
+Algorithm: K-Means Clustering.
+
+Purpose:
+Group customers based on purchasing behaviour.
+
+Input features:
+order_count,
+total_spend,
+avg_order_value,
+total_quantity,
+avg_discount,
+unique_products,
+cancelled_orders,
+returned_orders.
+
+Preprocessing:
+StandardScaler.
+
+Number of clusters:
+4.
+
+MODULE 4: PRODUCT RECOMMENDATION
+
+Method:
+Collaborative Filtering.
+
+Similarity:
+Cosine Similarity.
+
+Purpose:
+Recommend products using similar customers'
+completed purchase interactions.
+
+Dataset:
+194 customers and 10 products.
+
+Example:
+Customer 1002 previously purchased:
+P003 - Blood Pressure Monitor
+P005 - Vitamin D Tablets
+
+Recommended products:
+P002 - Glucose Test Strips
+P010 - First Aid Kit
+P004 - Digital Thermometer
+
+Evaluation:
+HitRate@3: 0.3687
+Precision@3: 0.1229
+
+MODULE 5: LLM ASSISTANT
+
+Model:
+Llama 3.2 1B.
+
+Runtime:
+Ollama.
+
+Integration:
+Python requests with local REST API.
+
+Purpose:
+Answer questions in natural language.
+
+MODULE 6: RAG ASSISTANT
+
+Purpose:
+Retrieve relevant information from project
+documents and use it to generate grounded answers.
+
+Expected capabilities:
+1. Explain project modules.
+2. Explain machine learning algorithms.
+3. Retrieve model evaluation results.
+4. Explain dataset features.
+5. Answer project-related technical questions.
+
+TECHNOLOGY STACK:
+
+Python 3.10
+Pandas
+NumPy
+Scikit-learn
+Matplotlib
+Seaborn
+Joblib
+Ollama
+Llama 3.2 1B
+TF-IDF retrieval
+Python Requests
+
+PROJECT LIMITATIONS:
+
+1. Datasets are synthetic.
+2. Results do not establish real-world
+   medical or insurance performance.
+3. The project does not diagnose patients.
+4. Insurance predictions are not claim decisions.
+5. Recommendations are demonstration outputs.

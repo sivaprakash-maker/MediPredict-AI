@@ -1,0 +1,1001 @@
+order_id,order_date,customer_id,customer_age,gender,city,product_id,quantity,discount,payment_method,inventory_before,order_status,product_name,category,unit_price,total_amount
+10001,2025-01-01,1184,73,Female,Salem,P007,6,0,COD,159,Completed,Hand Sanitizer,Personal Care,180,1080.0
+10002,2025-01-02,1090,42,Female,Trichy,P004,7,15,Credit Card,185,Completed,Digital Thermometer,Diagnostics,350,2082.5
+10003,2025-01-03,1094,49,Male,Madurai,P008,9,10,UPI,46,Completed,Surgical Mask,Personal Care,120,972.0
+10004,2025-01-04,1013,50,Female,Trichy,P005,6,15,Credit Card,152,Completed,Vitamin D Tablets,Supplements,450,2295.0
+10005,2025-01-05,1066,62,Male,Madurai,P007,9,15,COD,172,Cancelled,Hand Sanitizer,Personal Care,180,1377.0
+10006,2025-01-06,1037,53,Male,Tiruppur,P010,6,15,UPI,169,Completed,First Aid Kit,First Aid,750,3825.0
+10007,2025-01-07,1177,37,Female,Salem,P003,1,15,COD,20,Completed,Blood Pressure Monitor,Diagnostics,1800,1530.0
+10008,2025-01-08,1066,35,Male,Coimbatore,P007,9,20,Credit Card,147,Completed,Hand Sanitizer,Personal Care,180,1296.0
+10009,2025-01-09,1036,55,Male,Trichy,P008,9,20,Debit Card,87,Completed,Surgical Mask,Personal Care,120,864.0
+10010,2025-01-10,1182,20,Male,Coimbatore,P005,2,5,Debit Card,86,Completed,Vitamin D Tablets,Supplements,450,855.0
+10011,2025-01-11,1026,40,Female,Salem,P004,6,0,Credit Card,194,Completed,Digital Thermometer,Diagnostics,350,2100.0
+10012,2025-01-12,1075,49,Female,Coimbatore,P008,9,15,Credit Card,162,Cancelled,Surgical Mask,Personal Care,120,918.0
+10013,2025-01-13,1200,62,Female,Salem,P008,8,5,Credit Card,11,Completed,Surgical Mask,Personal Care,120,912.0
+10014,2025-01-14,1108,33,Female,Coimbatore,P003,3,0,UPI,73,Completed,Blood Pressure Monitor,Diagnostics,1800,5400.0
+10015,2025-01-15,1168,22,Male,Trichy,P006,8,10,COD,44,Completed,Calcium Tablets,Supplements,300,2160.0
+10016,2025-01-16,1043,21,Female,Tiruppur,P005,8,20,COD,16,Returned,Vitamin D Tablets,Supplements,450,2880.0
+10017,2025-01-17,1150,38,Female,Coimbatore,P002,8,0,COD,94,Completed,Glucose Test Strips,Diabetes Care,650,5200.0
+10018,2025-01-18,1148,57,Female,Trichy,P008,9,10,Credit Card,155,Completed,Surgical Mask,Personal Care,120,972.0
+10019,2025-01-19,1008,68,Female,Madurai,P006,5,0,COD,76,Completed,Calcium Tablets,Supplements,300,1500.0
+10020,2025-01-20,1029,31,Male,Salem,P002,6,20,Credit Card,51,Completed,Glucose Test Strips,Diabetes Care,650,3120.0
+10021,2025-01-21,1040,56,Male,Chennai,P005,6,20,UPI,127,Completed,Vitamin D Tablets,Supplements,450,2160.0
+10022,2025-01-22,1158,48,Male,Chennai,P001,3,5,Debit Card,134,Completed,Glucometer,Diabetes Care,1200,3420.0
+10023,2025-01-23,1128,31,Female,Salem,P010,7,15,Credit Card,176,Returned,First Aid Kit,First Aid,750,4462.5
+10024,2025-01-24,1084,23,Female,Tiruppur,P006,5,0,Credit Card,178,Cancelled,Calcium Tablets,Supplements,300,1500.0
+10025,2025-01-25,1116,29,Male,Coimbatore,P009,4,0,Debit Card,33,Completed,Pain Relief Gel,Pain Relief,250,1000.0
+10026,2025-01-26,1183,33,Female,Tiruppur,P001,5,10,Debit Card,197,Completed,Glucometer,Diabetes Care,1200,5400.0
+10027,2025-01-27,1144,34,Female,Chennai,P010,5,20,UPI,55,Completed,First Aid Kit,First Aid,750,3000.0
+10028,2025-01-28,1174,62,Male,Trichy,P003,4,0,COD,28,Cancelled,Blood Pressure Monitor,Diagnostics,1800,7200.0
+10029,2025-01-29,1062,40,Male,Salem,P007,9,20,Credit Card,77,Completed,Hand Sanitizer,Personal Care,180,1296.0
+10030,2025-01-30,1007,31,Female,Salem,P004,5,0,COD,111,Completed,Digital Thermometer,Diagnostics,350,1750.0
+10031,2025-01-31,1045,24,Female,Tiruppur,P009,4,5,Credit Card,51,Completed,Pain Relief Gel,Pain Relief,250,950.0
+10032,2025-02-01,1187,63,Female,Trichy,P003,2,15,UPI,41,Completed,Blood Pressure Monitor,Diagnostics,1800,3060.0
+10033,2025-02-02,1184,49,Male,Tiruppur,P005,3,0,Debit Card,176,Completed,Vitamin D Tablets,Supplements,450,1350.0
+10034,2025-02-03,1176,32,Male,Coimbatore,P003,4,20,UPI,118,Completed,Blood Pressure Monitor,Diagnostics,1800,5760.0
+10035,2025-02-04,1155,61,Male,Madurai,P007,7,5,Debit Card,45,Completed,Hand Sanitizer,Personal Care,180,1197.0
+10036,2025-02-05,1181,34,Male,Trichy,P005,3,0,COD,106,Cancelled,Vitamin D Tablets,Supplements,450,1350.0
+10037,2025-02-06,1088,58,Female,Madurai,P009,4,10,COD,173,Completed,Pain Relief Gel,Pain Relief,250,900.0
+10038,2025-02-07,1073,71,Male,Coimbatore,P007,9,15,UPI,140,Completed,Hand Sanitizer,Personal Care,180,1377.0
+10039,2025-02-08,1163,64,Male,Madurai,P002,4,0,Debit Card,82,Completed,Glucose Test Strips,Diabetes Care,650,2600.0
+10040,2025-02-09,1179,61,Female,Chennai,P004,7,5,UPI,145,Completed,Digital Thermometer,Diagnostics,350,2327.5
+10041,2025-02-10,1037,51,Female,Madurai,P009,5,10,Debit Card,106,Completed,Pain Relief Gel,Pain Relief,250,1125.0
+10042,2025-02-11,1119,22,Female,Coimbatore,P002,5,5,Debit Card,132,Completed,Glucose Test Strips,Diabetes Care,650,3087.5
+10043,2025-02-12,1057,62,Male,Madurai,P010,3,5,COD,79,Completed,First Aid Kit,First Aid,750,2137.5
+10044,2025-02-13,1008,44,Female,Salem,P009,4,10,COD,178,Cancelled,Pain Relief Gel,Pain Relief,250,900.0
+10045,2025-02-14,1095,69,Female,Tiruppur,P010,4,5,Debit Card,22,Completed,First Aid Kit,First Aid,750,2850.0
+10046,2025-02-15,1117,40,Male,Chennai,P005,7,10,Debit Card,58,Completed,Vitamin D Tablets,Supplements,450,2835.0
+10047,2025-02-16,1110,57,Male,Salem,P002,4,0,Debit Card,69,Completed,Glucose Test Strips,Diabetes Care,650,2600.0
+10048,2025-02-17,1020,31,Female,Salem,P004,6,10,COD,139,Completed,Digital Thermometer,Diagnostics,350,1890.0
+10049,2025-02-18,1124,32,Male,Coimbatore,P007,8,10,COD,197,Completed,Hand Sanitizer,Personal Care,180,1296.0
+10050,2025-02-19,1053,60,Female,Tiruppur,P008,9,15,Credit Card,14,Cancelled,Surgical Mask,Personal Care,120,918.0
+10051,2025-02-20,1119,50,Female,Tiruppur,P003,3,10,Debit Card,181,Completed,Blood Pressure Monitor,Diagnostics,1800,4860.0
+10052,2025-02-21,1012,70,Male,Trichy,P001,3,10,Credit Card,36,Completed,Glucometer,Diabetes Care,1200,3240.0
+10053,2025-02-22,1177,48,Female,Chennai,P004,5,0,Debit Card,169,Returned,Digital Thermometer,Diagnostics,350,1750.0
+10054,2025-02-23,1017,52,Male,Coimbatore,P002,7,15,COD,158,Completed,Glucose Test Strips,Diabetes Care,650,3867.5
+10055,2025-02-24,1064,34,Male,Chennai,P008,9,20,Credit Card,17,Completed,Surgical Mask,Personal Care,120,864.0
+10056,2025-02-25,1042,45,Male,Trichy,P004,5,0,Credit Card,59,Completed,Digital Thermometer,Diagnostics,350,1750.0
+10057,2025-02-26,1094,36,Female,Madurai,P002,8,0,UPI,76,Completed,Glucose Test Strips,Diabetes Care,650,5200.0
+10058,2025-02-27,1157,63,Male,Salem,P006,7,20,Debit Card,53,Completed,Calcium Tablets,Supplements,300,1680.0
+10059,2025-02-28,1147,71,Male,Chennai,P006,5,10,COD,134,Completed,Calcium Tablets,Supplements,300,1350.0
+10060,2025-03-01,1011,40,Female,Salem,P010,2,5,UPI,67,Completed,First Aid Kit,First Aid,750,1425.0
+10061,2025-03-02,1098,49,Female,Coimbatore,P004,5,15,UPI,12,Completed,Digital Thermometer,Diagnostics,350,1487.5
+10062,2025-03-03,1178,57,Female,Madurai,P006,4,5,Debit Card,95,Completed,Calcium Tablets,Supplements,300,1140.0
+10063,2025-03-04,1071,30,Female,Coimbatore,P002,9,20,UPI,79,Completed,Glucose Test Strips,Diabetes Care,650,4680.0
+10064,2025-03-05,1108,37,Male,Madurai,P010,4,0,Debit Card,139,Completed,First Aid Kit,First Aid,750,3000.0
+10065,2025-03-06,1058,52,Male,Madurai,P002,4,0,UPI,181,Cancelled,Glucose Test Strips,Diabetes Care,650,2600.0
+10066,2025-03-07,1034,22,Male,Salem,P010,6,15,Debit Card,11,Completed,First Aid Kit,First Aid,750,3825.0
+10067,2025-03-08,1020,26,Female,Coimbatore,P004,4,0,COD,111,Completed,Digital Thermometer,Diagnostics,350,1400.0
+10068,2025-03-09,1050,46,Female,Coimbatore,P008,8,0,Debit Card,44,Completed,Surgical Mask,Personal Care,120,960.0
+10069,2025-03-10,1102,23,Male,Chennai,P007,9,15,Debit Card,107,Completed,Hand Sanitizer,Personal Care,180,1377.0
+10070,2025-03-11,1138,42,Female,Coimbatore,P009,7,15,Credit Card,39,Returned,Pain Relief Gel,Pain Relief,250,1487.5
+10071,2025-03-12,1160,48,Female,Chennai,P008,9,20,COD,125,Completed,Surgical Mask,Personal Care,120,864.0
+10072,2025-03-13,1052,39,Male,Tiruppur,P005,3,0,COD,17,Completed,Vitamin D Tablets,Supplements,450,1350.0
+10073,2025-03-14,1015,19,Male,Tiruppur,P002,3,0,COD,159,Completed,Glucose Test Strips,Diabetes Care,650,1950.0
+10074,2025-03-15,1084,62,Female,Tiruppur,P005,6,20,UPI,53,Completed,Vitamin D Tablets,Supplements,450,2160.0
+10075,2025-03-16,1131,22,Female,Trichy,P008,9,10,Credit Card,195,Completed,Surgical Mask,Personal Care,120,972.0
+10076,2025-03-17,1037,44,Female,Coimbatore,P010,3,10,COD,45,Completed,First Aid Kit,First Aid,750,2025.0
+10077,2025-03-18,1126,42,Male,Trichy,P009,5,10,UPI,86,Completed,Pain Relief Gel,Pain Relief,250,1125.0
+10078,2025-03-19,1040,25,Male,Coimbatore,P009,6,20,UPI,40,Completed,Pain Relief Gel,Pain Relief,250,1200.0
+10079,2025-03-20,1072,72,Male,Chennai,P001,3,0,UPI,56,Completed,Glucometer,Diabetes Care,1200,3600.0
+10080,2025-03-21,1040,18,Male,Trichy,P009,6,20,Credit Card,64,Completed,Pain Relief Gel,Pain Relief,250,1200.0
+10081,2025-03-22,1056,37,Male,Trichy,P007,9,20,UPI,115,Completed,Hand Sanitizer,Personal Care,180,1296.0
+10082,2025-03-23,1151,61,Female,Trichy,P009,6,10,Credit Card,199,Cancelled,Pain Relief Gel,Pain Relief,250,1350.0
+10083,2025-03-24,1104,40,Female,Madurai,P008,7,5,Debit Card,167,Completed,Surgical Mask,Personal Care,120,798.0
+10084,2025-03-25,1139,49,Female,Chennai,P001,5,0,UPI,130,Completed,Glucometer,Diabetes Care,1200,6000.0
+10085,2025-03-26,1110,28,Male,Tiruppur,P008,9,10,COD,64,Completed,Surgical Mask,Personal Care,120,972.0
+10086,2025-03-27,1192,56,Male,Chennai,P008,9,5,UPI,153,Completed,Surgical Mask,Personal Care,120,1026.0
+10087,2025-03-28,1136,64,Male,Madurai,P003,3,5,Debit Card,21,Cancelled,Blood Pressure Monitor,Diagnostics,1800,5130.0
+10088,2025-03-29,1093,71,Female,Coimbatore,P001,5,15,Debit Card,154,Completed,Glucometer,Diabetes Care,1200,5100.0
+10089,2025-03-30,1094,41,Male,Chennai,P008,9,0,UPI,153,Completed,Surgical Mask,Personal Care,120,1080.0
+10090,2025-03-31,1056,28,Male,Trichy,P003,3,5,Debit Card,149,Completed,Blood Pressure Monitor,Diagnostics,1800,5130.0
+10091,2025-04-01,1060,46,Female,Tiruppur,P003,2,10,Credit Card,145,Completed,Blood Pressure Monitor,Diagnostics,1800,3240.0
+10092,2025-04-02,1138,71,Male,Tiruppur,P001,5,15,Credit Card,12,Completed,Glucometer,Diabetes Care,1200,5100.0
+10093,2025-04-03,1039,43,Female,Coimbatore,P005,3,0,UPI,153,Completed,Vitamin D Tablets,Supplements,450,1350.0
+10094,2025-04-04,1028,33,Male,Chennai,P010,6,20,Credit Card,39,Completed,First Aid Kit,First Aid,750,3600.0
+10095,2025-04-05,1049,52,Male,Madurai,P007,8,10,Credit Card,32,Completed,Hand Sanitizer,Personal Care,180,1296.0
+10096,2025-04-06,1164,37,Female,Coimbatore,P010,3,5,COD,101,Completed,First Aid Kit,First Aid,750,2137.5
+10097,2025-04-07,1125,63,Female,Chennai,P009,4,5,UPI,124,Completed,Pain Relief Gel,Pain Relief,250,950.0
+10098,2025-04-08,1013,20,Female,Salem,P007,6,10,Debit Card,113,Completed,Hand Sanitizer,Personal Care,180,972.0
+10099,2025-04-09,1036,18,Female,Tiruppur,P009,4,5,UPI,127,Completed,Pain Relief Gel,Pain Relief,250,950.0
+10100,2025-04-10,1101,70,Female,Madurai,P008,9,15,Credit Card,14,Completed,Surgical Mask,Personal Care,120,918.0
+10101,2025-04-11,1026,64,Female,Trichy,P002,6,0,COD,113,Completed,Glucose Test Strips,Diabetes Care,650,3900.0
+10102,2025-04-12,1086,18,Male,Madurai,P001,4,15,UPI,117,Completed,Glucometer,Diabetes Care,1200,4080.0
+10103,2025-04-13,1004,34,Male,Trichy,P007,9,5,UPI,74,Completed,Hand Sanitizer,Personal Care,180,1539.0
+10104,2025-04-14,1082,19,Female,Madurai,P007,8,20,Credit Card,130,Returned,Hand Sanitizer,Personal Care,180,1152.0
+10105,2025-04-15,1192,46,Male,Tiruppur,P008,9,0,Credit Card,39,Cancelled,Surgical Mask,Personal Care,120,1080.0
+10106,2025-04-16,1166,37,Female,Trichy,P005,5,0,UPI,158,Completed,Vitamin D Tablets,Supplements,450,2250.0
+10107,2025-04-17,1127,23,Male,Chennai,P003,2,10,Credit Card,93,Completed,Blood Pressure Monitor,Diagnostics,1800,3240.0
+10108,2025-04-18,1088,25,Female,Trichy,P008,9,10,Credit Card,159,Completed,Surgical Mask,Personal Care,120,972.0
+10109,2025-04-19,1127,46,Male,Coimbatore,P006,6,20,Credit Card,41,Completed,Calcium Tablets,Supplements,300,1440.0
+10110,2025-04-20,1120,65,Male,Chennai,P003,3,0,Credit Card,170,Completed,Blood Pressure Monitor,Diagnostics,1800,5400.0
+10111,2025-04-21,1022,68,Male,Coimbatore,P001,7,20,Credit Card,25,Completed,Glucometer,Diabetes Care,1200,6720.0
+10112,2025-04-22,1130,50,Male,Madurai,P003,2,10,COD,47,Returned,Blood Pressure Monitor,Diagnostics,1800,3240.0
+10113,2025-04-23,1031,20,Male,Chennai,P005,7,10,Credit Card,151,Completed,Vitamin D Tablets,Supplements,450,2835.0
+10114,2025-04-24,1119,52,Female,Madurai,P003,2,0,Debit Card,45,Completed,Blood Pressure Monitor,Diagnostics,1800,3600.0
+10115,2025-04-25,1011,22,Female,Salem,P001,5,15,UPI,160,Completed,Glucometer,Diabetes Care,1200,5100.0
+10116,2025-04-26,1046,44,Female,Madurai,P005,5,5,COD,123,Completed,Vitamin D Tablets,Supplements,450,2137.5
+10117,2025-04-27,1096,61,Male,Madurai,P010,4,10,COD,75,Completed,First Aid Kit,First Aid,750,2700.0
+10118,2025-04-28,1190,29,Female,Coimbatore,P007,9,10,Credit Card,114,Completed,Hand Sanitizer,Personal Care,180,1458.0
+10119,2025-04-29,1197,37,Male,Trichy,P007,9,15,UPI,94,Completed,Hand Sanitizer,Personal Care,180,1377.0
+10120,2025-04-30,1192,62,Male,Salem,P009,4,15,Debit Card,11,Completed,Pain Relief Gel,Pain Relief,250,850.0
+10121,2025-05-01,1010,37,Male,Madurai,P010,7,20,Credit Card,84,Completed,First Aid Kit,First Aid,750,4200.0
+10122,2025-05-02,1168,26,Female,Madurai,P010,3,20,UPI,76,Completed,First Aid Kit,First Aid,750,1800.0
+10123,2025-05-03,1128,56,Male,Salem,P003,4,5,Credit Card,189,Completed,Blood Pressure Monitor,Diagnostics,1800,6840.0
+10124,2025-05-04,1152,21,Female,Salem,P007,9,5,Credit Card,199,Completed,Hand Sanitizer,Personal Care,180,1539.0
+10125,2025-05-05,1099,68,Female,Chennai,P001,2,0,Credit Card,160,Completed,Glucometer,Diabetes Care,1200,2400.0
+10126,2025-05-06,1172,71,Male,Coimbatore,P004,7,20,Credit Card,163,Returned,Digital Thermometer,Diagnostics,350,1960.0
+10127,2025-05-07,1112,36,Male,Salem,P004,5,10,Credit Card,64,Completed,Digital Thermometer,Diagnostics,350,1575.0
+10128,2025-05-08,1060,55,Female,Salem,P005,6,20,Credit Card,15,Cancelled,Vitamin D Tablets,Supplements,450,2160.0
+10129,2025-05-09,1190,44,Female,Tiruppur,P007,8,10,Credit Card,172,Cancelled,Hand Sanitizer,Personal Care,180,1296.0
+10130,2025-05-10,1087,62,Female,Trichy,P007,9,15,Debit Card,159,Completed,Hand Sanitizer,Personal Care,180,1377.0
+10131,2025-05-11,1145,60,Female,Salem,P004,9,20,COD,180,Completed,Digital Thermometer,Diagnostics,350,2520.0
+10132,2025-05-12,1065,30,Female,Coimbatore,P007,9,15,Debit Card,152,Cancelled,Hand Sanitizer,Personal Care,180,1377.0
+10133,2025-05-13,1057,30,Female,Trichy,P003,2,5,Credit Card,95,Completed,Blood Pressure Monitor,Diagnostics,1800,3420.0
+10134,2025-05-14,1183,74,Male,Trichy,P006,5,5,Credit Card,69,Completed,Calcium Tablets,Supplements,300,1425.0
+10135,2025-05-15,1106,39,Female,Madurai,P002,4,0,Debit Card,110,Cancelled,Glucose Test Strips,Diabetes Care,650,2600.0
+10136,2025-05-16,1181,45,Female,Madurai,P010,4,20,Debit Card,21,Completed,First Aid Kit,First Aid,750,2400.0
+10137,2025-05-17,1184,69,Female,Madurai,P009,7,15,COD,58,Completed,Pain Relief Gel,Pain Relief,250,1487.5
+10138,2025-05-18,1009,64,Female,Madurai,P005,7,10,Debit Card,51,Completed,Vitamin D Tablets,Supplements,450,2835.0
+10139,2025-05-19,1022,70,Male,Tiruppur,P006,4,5,COD,175,Completed,Calcium Tablets,Supplements,300,1140.0
+10140,2025-05-20,1141,62,Male,Salem,P004,5,5,Credit Card,91,Completed,Digital Thermometer,Diagnostics,350,1662.5
+10141,2025-05-21,1089,39,Female,Madurai,P010,4,10,UPI,182,Completed,First Aid Kit,First Aid,750,2700.0
+10142,2025-05-22,1176,60,Female,Chennai,P007,9,15,UPI,44,Completed,Hand Sanitizer,Personal Care,180,1377.0
+10143,2025-05-23,1018,36,Female,Madurai,P009,5,15,UPI,167,Completed,Pain Relief Gel,Pain Relief,250,1062.5
+10144,2025-05-24,1115,25,Male,Salem,P007,9,20,UPI,167,Completed,Hand Sanitizer,Personal Care,180,1296.0
+10145,2025-05-25,1168,69,Male,Madurai,P001,5,20,Credit Card,143,Completed,Glucometer,Diabetes Care,1200,4800.0
+10146,2025-05-26,1145,25,Male,Tiruppur,P001,3,0,UPI,76,Completed,Glucometer,Diabetes Care,1200,3600.0
+10147,2025-05-27,1143,59,Male,Coimbatore,P009,5,5,Debit Card,89,Completed,Pain Relief Gel,Pain Relief,250,1187.5
+10148,2025-05-28,1106,43,Male,Coimbatore,P009,6,20,Debit Card,16,Completed,Pain Relief Gel,Pain Relief,250,1200.0
+10149,2025-05-29,1015,65,Male,Salem,P004,6,15,UPI,189,Completed,Digital Thermometer,Diagnostics,350,1785.0
+10150,2025-05-30,1063,68,Female,Coimbatore,P009,5,10,Debit Card,23,Returned,Pain Relief Gel,Pain Relief,250,1125.0
+10151,2025-05-31,1167,43,Male,Coimbatore,P003,4,15,COD,82,Completed,Blood Pressure Monitor,Diagnostics,1800,6120.0
+10152,2025-06-01,1013,40,Male,Chennai,P007,7,5,Credit Card,152,Completed,Hand Sanitizer,Personal Care,180,1197.0
+10153,2025-06-02,1081,60,Female,Salem,P006,6,15,UPI,158,Completed,Calcium Tablets,Supplements,300,1530.0
+10154,2025-06-03,1032,30,Male,Salem,P008,9,0,UPI,172,Completed,Surgical Mask,Personal Care,120,1080.0
+10155,2025-06-04,1137,45,Female,Coimbatore,P009,5,5,Credit Card,75,Completed,Pain Relief Gel,Pain Relief,250,1187.5
+10156,2025-06-05,1040,26,Male,Coimbatore,P005,5,10,Debit Card,100,Completed,Vitamin D Tablets,Supplements,450,2025.0
+10157,2025-06-06,1148,37,Female,Coimbatore,P001,4,0,Credit Card,139,Completed,Glucometer,Diabetes Care,1200,4800.0
+10158,2025-06-07,1082,73,Female,Trichy,P003,2,5,Credit Card,172,Completed,Blood Pressure Monitor,Diagnostics,1800,3420.0
+10159,2025-06-08,1077,36,Female,Tiruppur,P010,6,10,Debit Card,29,Completed,First Aid Kit,First Aid,750,4050.0
+10160,2025-06-09,1191,65,Female,Madurai,P008,8,0,Credit Card,19,Completed,Surgical Mask,Personal Care,120,960.0
+10161,2025-06-10,1076,56,Female,Tiruppur,P006,5,0,Debit Card,34,Completed,Calcium Tablets,Supplements,300,1500.0
+10162,2025-06-11,1172,68,Male,Salem,P008,9,5,Debit Card,34,Cancelled,Surgical Mask,Personal Care,120,1026.0
+10163,2025-06-12,1038,29,Male,Chennai,P009,5,20,Credit Card,63,Completed,Pain Relief Gel,Pain Relief,250,1000.0
+10164,2025-06-13,1188,32,Female,Madurai,P004,4,0,COD,42,Completed,Digital Thermometer,Diagnostics,350,1400.0
+10165,2025-06-14,1071,48,Female,Chennai,P001,2,0,Debit Card,173,Completed,Glucometer,Diabetes Care,1200,2400.0
+10166,2025-06-15,1048,72,Female,Trichy,P001,4,10,Credit Card,104,Returned,Glucometer,Diabetes Care,1200,4320.0
+10167,2025-06-16,1018,31,Male,Salem,P010,7,15,Debit Card,23,Completed,First Aid Kit,First Aid,750,4462.5
+10168,2025-06-17,1144,28,Female,Trichy,P004,8,5,COD,74,Returned,Digital Thermometer,Diagnostics,350,2660.0
+10169,2025-06-18,1183,43,Female,Salem,P007,8,5,COD,119,Completed,Hand Sanitizer,Personal Care,180,1368.0
+10170,2025-06-19,1039,59,Female,Chennai,P002,9,20,UPI,89,Completed,Glucose Test Strips,Diabetes Care,650,4680.0
+10171,2025-06-20,1196,44,Female,Chennai,P003,2,20,Debit Card,63,Completed,Blood Pressure Monitor,Diagnostics,1800,2880.0
+10172,2025-06-21,1187,28,Male,Chennai,P001,3,5,Debit Card,134,Completed,Glucometer,Diabetes Care,1200,3420.0
+10173,2025-06-22,1089,55,Female,Salem,P005,5,20,Credit Card,189,Completed,Vitamin D Tablets,Supplements,450,1800.0
+10174,2025-06-23,1062,51,Female,Coimbatore,P001,3,10,Debit Card,140,Completed,Glucometer,Diabetes Care,1200,3240.0
+10175,2025-06-24,1141,60,Male,Chennai,P008,8,5,UPI,178,Completed,Surgical Mask,Personal Care,120,912.0
+10176,2025-06-25,1109,36,Female,Trichy,P001,5,20,COD,143,Cancelled,Glucometer,Diabetes Care,1200,4800.0
+10177,2025-06-26,1081,23,Female,Madurai,P001,1,5,COD,34,Completed,Glucometer,Diabetes Care,1200,1140.0
+10178,2025-06-27,1134,63,Male,Salem,P002,9,15,UPI,150,Cancelled,Glucose Test Strips,Diabetes Care,650,4972.5
+10179,2025-06-28,1077,69,Male,Trichy,P002,5,0,Debit Card,126,Completed,Glucose Test Strips,Diabetes Care,650,3250.0
+10180,2025-06-29,1188,55,Male,Tiruppur,P006,6,5,Debit Card,145,Completed,Calcium Tablets,Supplements,300,1710.0
+10181,2025-06-30,1090,66,Female,Tiruppur,P007,9,0,UPI,158,Cancelled,Hand Sanitizer,Personal Care,180,1620.0
+10182,2025-07-01,1014,59,Female,Madurai,P005,5,20,Credit Card,34,Completed,Vitamin D Tablets,Supplements,450,1800.0
+10183,2025-07-02,1095,45,Male,Coimbatore,P001,1,0,COD,88,Completed,Glucometer,Diabetes Care,1200,1200.0
+10184,2025-07-03,1054,18,Male,Chennai,P001,3,5,UPI,77,Completed,Glucometer,Diabetes Care,1200,3420.0
+10185,2025-07-04,1132,52,Male,Salem,P003,5,15,UPI,182,Completed,Blood Pressure Monitor,Diagnostics,1800,7650.0
+10186,2025-07-05,1039,57,Female,Trichy,P002,9,20,Debit Card,197,Completed,Glucose Test Strips,Diabetes Care,650,4680.0
+10187,2025-07-06,1072,25,Female,Chennai,P005,3,5,COD,21,Completed,Vitamin D Tablets,Supplements,450,1282.5
+10188,2025-07-07,1025,69,Male,Trichy,P010,6,20,Debit Card,41,Completed,First Aid Kit,First Aid,750,3600.0
+10189,2025-07-08,1077,71,Female,Salem,P006,6,10,UPI,137,Returned,Calcium Tablets,Supplements,300,1620.0
+10190,2025-07-09,1160,64,Male,Tiruppur,P007,7,0,Credit Card,105,Completed,Hand Sanitizer,Personal Care,180,1260.0
+10191,2025-07-10,1187,73,Female,Chennai,P004,9,10,COD,101,Cancelled,Digital Thermometer,Diagnostics,350,2835.0
+10192,2025-07-11,1191,24,Female,Madurai,P007,6,5,UPI,150,Completed,Hand Sanitizer,Personal Care,180,1026.0
+10193,2025-07-12,1166,28,Female,Coimbatore,P008,9,15,UPI,40,Completed,Surgical Mask,Personal Care,120,918.0
+10194,2025-07-13,1120,56,Female,Madurai,P001,6,20,Credit Card,87,Completed,Glucometer,Diabetes Care,1200,5760.0
+10195,2025-07-14,1053,21,Male,Coimbatore,P006,6,0,UPI,29,Completed,Calcium Tablets,Supplements,300,1800.0
+10196,2025-07-15,1195,42,Female,Trichy,P008,9,20,UPI,155,Cancelled,Surgical Mask,Personal Care,120,864.0
+10197,2025-07-16,1156,29,Female,Chennai,P005,5,5,COD,69,Completed,Vitamin D Tablets,Supplements,450,2137.5
+10198,2025-07-17,1131,43,Male,Chennai,P004,7,20,COD,143,Completed,Digital Thermometer,Diagnostics,350,1960.0
+10199,2025-07-18,1150,55,Female,Coimbatore,P002,6,0,COD,169,Completed,Glucose Test Strips,Diabetes Care,650,3900.0
+10200,2025-07-19,1096,63,Male,Tiruppur,P006,5,5,Debit Card,102,Completed,Calcium Tablets,Supplements,300,1425.0
+10201,2025-07-20,1166,29,Male,Salem,P006,8,20,Credit Card,52,Cancelled,Calcium Tablets,Supplements,300,1920.0
+10202,2025-07-21,1200,60,Female,Madurai,P001,4,15,COD,139,Cancelled,Glucometer,Diabetes Care,1200,4080.0
+10203,2025-07-22,1072,68,Female,Trichy,P009,5,5,Debit Card,69,Completed,Pain Relief Gel,Pain Relief,250,1187.5
+10204,2025-07-23,1062,70,Male,Madurai,P006,6,5,Debit Card,160,Completed,Calcium Tablets,Supplements,300,1710.0
+10205,2025-07-24,1185,54,Male,Madurai,P003,5,15,Credit Card,40,Completed,Blood Pressure Monitor,Diagnostics,1800,7650.0
+10206,2025-07-25,1006,63,Male,Trichy,P004,6,10,Credit Card,14,Completed,Digital Thermometer,Diagnostics,350,1890.0
+10207,2025-07-26,1032,70,Female,Trichy,P004,3,0,UPI,171,Returned,Digital Thermometer,Diagnostics,350,1050.0
+10208,2025-07-27,1099,41,Male,Chennai,P003,5,10,Debit Card,19,Completed,Blood Pressure Monitor,Diagnostics,1800,8100.0
+10209,2025-07-28,1138,33,Male,Madurai,P010,4,20,COD,98,Completed,First Aid Kit,First Aid,750,2400.0
+10210,2025-07-29,1131,74,Male,Salem,P003,3,15,Credit Card,139,Completed,Blood Pressure Monitor,Diagnostics,1800,4590.0
+10211,2025-07-30,1187,30,Female,Salem,P003,2,10,Debit Card,135,Returned,Blood Pressure Monitor,Diagnostics,1800,3240.0
+10212,2025-07-31,1076,42,Male,Coimbatore,P004,7,5,COD,20,Completed,Digital Thermometer,Diagnostics,350,2327.5
+10213,2025-08-01,1177,71,Female,Trichy,P007,7,20,Debit Card,187,Completed,Hand Sanitizer,Personal Care,180,1008.0
+10214,2025-08-02,1059,71,Female,Chennai,P004,9,20,Credit Card,168,Completed,Digital Thermometer,Diagnostics,350,2520.0
+10215,2025-08-03,1031,74,Male,Salem,P009,6,10,UPI,65,Completed,Pain Relief Gel,Pain Relief,250,1350.0
+10216,2025-08-04,1093,69,Female,Tiruppur,P001,4,10,Debit Card,92,Completed,Glucometer,Diabetes Care,1200,4320.0
+10217,2025-08-05,1069,71,Male,Chennai,P008,9,15,COD,146,Completed,Surgical Mask,Personal Care,120,918.0
+10218,2025-08-06,1190,21,Female,Chennai,P007,7,0,Credit Card,108,Completed,Hand Sanitizer,Personal Care,180,1260.0
+10219,2025-08-07,1052,28,Female,Salem,P002,8,10,UPI,158,Completed,Glucose Test Strips,Diabetes Care,650,4680.0
+10220,2025-08-08,1089,49,Male,Tiruppur,P008,9,10,COD,82,Completed,Surgical Mask,Personal Care,120,972.0
+10221,2025-08-09,1127,66,Male,Coimbatore,P001,4,5,COD,165,Completed,Glucometer,Diabetes Care,1200,4560.0
+10222,2025-08-10,1169,24,Male,Salem,P009,7,20,COD,199,Completed,Pain Relief Gel,Pain Relief,250,1400.0
+10223,2025-08-11,1031,63,Female,Tiruppur,P009,4,0,Debit Card,124,Completed,Pain Relief Gel,Pain Relief,250,1000.0
+10224,2025-08-12,1084,28,Female,Chennai,P002,6,5,Credit Card,16,Completed,Glucose Test Strips,Diabetes Care,650,3705.0
+10225,2025-08-13,1127,45,Male,Tiruppur,P007,9,15,COD,89,Completed,Hand Sanitizer,Personal Care,180,1377.0
+10226,2025-08-14,1150,71,Male,Chennai,P010,6,15,Debit Card,153,Cancelled,First Aid Kit,First Aid,750,3825.0
+10227,2025-08-15,1132,58,Female,Salem,P003,4,10,Credit Card,106,Completed,Blood Pressure Monitor,Diagnostics,1800,6480.0
+10228,2025-08-16,1013,40,Female,Trichy,P007,5,10,Credit Card,13,Completed,Hand Sanitizer,Personal Care,180,810.0
+10229,2025-08-17,1045,62,Female,Salem,P010,6,15,Debit Card,13,Completed,First Aid Kit,First Aid,750,3825.0
+10230,2025-08-18,1127,40,Male,Madurai,P009,5,10,Debit Card,112,Completed,Pain Relief Gel,Pain Relief,250,1125.0
+10231,2025-08-19,1170,67,Female,Madurai,P004,5,0,COD,49,Completed,Digital Thermometer,Diagnostics,350,1750.0
+10232,2025-08-20,1114,45,Male,Madurai,P001,4,10,Credit Card,26,Completed,Glucometer,Diabetes Care,1200,4320.0
+10233,2025-08-21,1177,60,Female,Salem,P002,9,20,UPI,110,Completed,Glucose Test Strips,Diabetes Care,650,4680.0
+10234,2025-08-22,1020,64,Female,Coimbatore,P001,5,10,Debit Card,112,Completed,Glucometer,Diabetes Care,1200,5400.0
+10235,2025-08-23,1081,74,Male,Salem,P005,4,5,Credit Card,133,Completed,Vitamin D Tablets,Supplements,450,1710.0
+10236,2025-08-24,1182,43,Male,Trichy,P005,4,0,Credit Card,61,Completed,Vitamin D Tablets,Supplements,450,1800.0
+10237,2025-08-25,1164,42,Male,Tiruppur,P007,6,5,COD,61,Completed,Hand Sanitizer,Personal Care,180,1026.0
+10238,2025-08-26,1129,71,Female,Salem,P009,3,5,UPI,173,Completed,Pain Relief Gel,Pain Relief,250,712.5
+10239,2025-08-27,1143,46,Female,Salem,P009,6,20,COD,133,Completed,Pain Relief Gel,Pain Relief,250,1200.0
+10240,2025-08-28,1017,36,Female,Chennai,P003,3,0,UPI,175,Completed,Blood Pressure Monitor,Diagnostics,1800,5400.0
+10241,2025-08-29,1152,50,Male,Chennai,P003,3,0,UPI,187,Returned,Blood Pressure Monitor,Diagnostics,1800,5400.0
+10242,2025-08-30,1058,53,Female,Chennai,P003,3,0,Debit Card,72,Completed,Blood Pressure Monitor,Diagnostics,1800,5400.0
+10243,2025-08-31,1072,31,Male,Salem,P004,6,0,Credit Card,125,Completed,Digital Thermometer,Diagnostics,350,2100.0
+10244,2025-09-01,1109,31,Male,Coimbatore,P008,9,0,Credit Card,71,Completed,Surgical Mask,Personal Care,120,1080.0
+10245,2025-09-02,1023,52,Male,Tiruppur,P006,7,20,Credit Card,16,Cancelled,Calcium Tablets,Supplements,300,1680.0
+10246,2025-09-03,1174,47,Female,Tiruppur,P008,9,10,UPI,164,Completed,Surgical Mask,Personal Care,120,972.0
+10247,2025-09-04,1072,45,Female,Trichy,P001,5,5,Credit Card,101,Completed,Glucometer,Diabetes Care,1200,5700.0
+10248,2025-09-05,1008,34,Male,Coimbatore,P008,9,0,Debit Card,23,Cancelled,Surgical Mask,Personal Care,120,1080.0
+10249,2025-09-06,1059,20,Female,Coimbatore,P004,8,10,UPI,95,Cancelled,Digital Thermometer,Diagnostics,350,2520.0
+10250,2025-09-07,1111,33,Male,Tiruppur,P001,5,10,UPI,142,Completed,Glucometer,Diabetes Care,1200,5400.0
+10251,2025-09-08,1187,63,Male,Madurai,P008,9,5,UPI,192,Completed,Surgical Mask,Personal Care,120,1026.0
+10252,2025-09-09,1013,47,Female,Chennai,P004,9,20,UPI,139,Completed,Digital Thermometer,Diagnostics,350,2520.0
+10253,2025-09-10,1167,69,Male,Chennai,P006,7,15,Debit Card,71,Completed,Calcium Tablets,Supplements,300,1785.0
+10254,2025-09-11,1156,46,Male,Tiruppur,P008,9,15,Credit Card,158,Completed,Surgical Mask,Personal Care,120,918.0
+10255,2025-09-12,1189,62,Female,Coimbatore,P004,6,10,Debit Card,88,Completed,Digital Thermometer,Diagnostics,350,1890.0
+10256,2025-09-13,1016,32,Male,Trichy,P003,2,5,Credit Card,158,Completed,Blood Pressure Monitor,Diagnostics,1800,3420.0
+10257,2025-09-14,1119,63,Male,Madurai,P009,5,15,Debit Card,147,Completed,Pain Relief Gel,Pain Relief,250,1062.5
+10258,2025-09-15,1002,73,Male,Tiruppur,P003,3,10,COD,67,Completed,Blood Pressure Monitor,Diagnostics,1800,4860.0
+10259,2025-09-16,1145,42,Male,Chennai,P009,5,20,COD,129,Completed,Pain Relief Gel,Pain Relief,250,1000.0
+10260,2025-09-17,1030,68,Male,Salem,P002,7,15,COD,176,Completed,Glucose Test Strips,Diabetes Care,650,3867.5
+10261,2025-09-18,1103,55,Male,Coimbatore,P002,5,10,COD,142,Completed,Glucose Test Strips,Diabetes Care,650,2925.0
+10262,2025-09-19,1013,59,Male,Salem,P002,7,10,UPI,74,Cancelled,Glucose Test Strips,Diabetes Care,650,4095.0
+10263,2025-09-20,1096,64,Female,Trichy,P006,5,0,UPI,22,Completed,Calcium Tablets,Supplements,300,1500.0
+10264,2025-09-21,1094,70,Female,Tiruppur,P003,3,20,Debit Card,190,Completed,Blood Pressure Monitor,Diagnostics,1800,4320.0
+10265,2025-09-22,1082,71,Male,Chennai,P009,5,0,Debit Card,91,Cancelled,Pain Relief Gel,Pain Relief,250,1250.0
+10266,2025-09-23,1013,69,Male,Madurai,P004,7,5,COD,182,Completed,Digital Thermometer,Diagnostics,350,2327.5
+10267,2025-09-24,1171,55,Female,Salem,P001,1,0,Credit Card,169,Completed,Glucometer,Diabetes Care,1200,1200.0
+10268,2025-09-25,1094,40,Female,Madurai,P004,4,0,COD,173,Cancelled,Digital Thermometer,Diagnostics,350,1400.0
+10269,2025-09-26,1149,42,Female,Trichy,P001,4,15,Debit Card,197,Completed,Glucometer,Diabetes Care,1200,4080.0
+10270,2025-09-27,1112,59,Female,Chennai,P005,4,10,COD,148,Completed,Vitamin D Tablets,Supplements,450,1620.0
+10271,2025-09-28,1055,24,Female,Salem,P004,8,20,Debit Card,158,Completed,Digital Thermometer,Diagnostics,350,2240.0
+10272,2025-09-29,1081,39,Male,Trichy,P008,8,0,COD,61,Completed,Surgical Mask,Personal Care,120,960.0
+10273,2025-09-30,1168,34,Female,Madurai,P008,9,20,Credit Card,192,Completed,Surgical Mask,Personal Care,120,864.0
+10274,2025-10-01,1116,35,Female,Madurai,P007,6,0,COD,126,Cancelled,Hand Sanitizer,Personal Care,180,1080.0
+10275,2025-10-02,1143,66,Female,Salem,P003,4,5,Credit Card,35,Completed,Blood Pressure Monitor,Diagnostics,1800,6840.0
+10276,2025-10-03,1180,58,Male,Chennai,P001,3,0,Credit Card,43,Completed,Glucometer,Diabetes Care,1200,3600.0
+10277,2025-10-04,1108,27,Male,Madurai,P001,6,15,Debit Card,61,Completed,Glucometer,Diabetes Care,1200,6120.0
+10278,2025-10-05,1053,27,Male,Tiruppur,P003,5,10,Credit Card,121,Completed,Blood Pressure Monitor,Diagnostics,1800,8100.0
+10279,2025-10-06,1128,74,Male,Trichy,P006,8,5,UPI,91,Completed,Calcium Tablets,Supplements,300,2280.0
+10280,2025-10-07,1180,24,Male,Salem,P007,6,0,UPI,189,Completed,Hand Sanitizer,Personal Care,180,1080.0
+10281,2025-10-08,1158,65,Male,Coimbatore,P006,5,20,UPI,166,Completed,Calcium Tablets,Supplements,300,1200.0
+10282,2025-10-09,1161,67,Female,Coimbatore,P006,7,5,Debit Card,175,Completed,Calcium Tablets,Supplements,300,1995.0
+10283,2025-10-10,1057,55,Male,Chennai,P006,9,5,UPI,51,Completed,Calcium Tablets,Supplements,300,2565.0
+10284,2025-10-11,1052,44,Male,Tiruppur,P003,4,0,Debit Card,30,Completed,Blood Pressure Monitor,Diagnostics,1800,7200.0
+10285,2025-10-12,1137,69,Female,Madurai,P006,7,5,Debit Card,51,Completed,Calcium Tablets,Supplements,300,1995.0
+10286,2025-10-13,1182,50,Male,Coimbatore,P008,9,20,UPI,150,Completed,Surgical Mask,Personal Care,120,864.0
+10287,2025-10-14,1111,18,Female,Chennai,P002,9,5,Credit Card,122,Completed,Glucose Test Strips,Diabetes Care,650,5557.5
+10288,2025-10-15,1001,61,Female,Trichy,P005,6,20,COD,114,Completed,Vitamin D Tablets,Supplements,450,2160.0
+10289,2025-10-16,1044,70,Male,Tiruppur,P001,5,0,Debit Card,26,Completed,Glucometer,Diabetes Care,1200,6000.0
+10290,2025-10-17,1075,51,Female,Tiruppur,P001,6,10,UPI,129,Completed,Glucometer,Diabetes Care,1200,6480.0
+10291,2025-10-18,1098,21,Female,Chennai,P005,7,5,Debit Card,146,Returned,Vitamin D Tablets,Supplements,450,2992.5
+10292,2025-10-19,1009,34,Female,Chennai,P003,8,10,Credit Card,178,Completed,Blood Pressure Monitor,Diagnostics,1800,12960.0
+10293,2025-10-20,1032,21,Female,Madurai,P004,9,20,Credit Card,138,Completed,Digital Thermometer,Diagnostics,350,2520.0
+10294,2025-10-21,1015,60,Male,Chennai,P003,3,5,UPI,139,Completed,Blood Pressure Monitor,Diagnostics,1800,5130.0
+10295,2025-10-22,1140,71,Female,Madurai,P001,6,15,Debit Card,69,Completed,Glucometer,Diabetes Care,1200,6120.0
+10296,2025-10-23,1185,43,Male,Madurai,P001,3,10,COD,57,Completed,Glucometer,Diabetes Care,1200,3240.0
+10297,2025-10-24,1136,21,Female,Salem,P005,5,5,COD,38,Completed,Vitamin D Tablets,Supplements,450,2137.5
+10298,2025-10-25,1072,18,Female,Tiruppur,P006,7,10,Debit Card,106,Completed,Calcium Tablets,Supplements,300,1890.0
+10299,2025-10-26,1155,24,Female,Trichy,P003,3,5,Debit Card,19,Cancelled,Blood Pressure Monitor,Diagnostics,1800,5130.0
+10300,2025-10-27,1190,47,Male,Tiruppur,P009,5,0,Debit Card,67,Cancelled,Pain Relief Gel,Pain Relief,250,1250.0
+10301,2025-10-28,1012,67,Male,Tiruppur,P005,5,10,UPI,197,Completed,Vitamin D Tablets,Supplements,450,2025.0
+10302,2025-10-29,1065,26,Male,Salem,P008,9,15,Credit Card,30,Completed,Surgical Mask,Personal Care,120,918.0
+10303,2025-10-30,1107,52,Female,Madurai,P001,6,15,COD,37,Completed,Glucometer,Diabetes Care,1200,6120.0
+10304,2025-10-31,1042,25,Female,Madurai,P005,7,20,UPI,43,Completed,Vitamin D Tablets,Supplements,450,2520.0
+10305,2025-11-01,1190,41,Female,Chennai,P003,3,5,Debit Card,17,Completed,Blood Pressure Monitor,Diagnostics,1800,5130.0
+10306,2025-11-02,1115,36,Female,Salem,P001,5,10,Debit Card,196,Completed,Glucometer,Diabetes Care,1200,5400.0
+10307,2025-11-03,1139,53,Male,Chennai,P004,9,20,Credit Card,186,Completed,Digital Thermometer,Diagnostics,350,2520.0
+10308,2025-11-04,1103,67,Female,Salem,P005,5,10,Debit Card,88,Completed,Vitamin D Tablets,Supplements,450,2025.0
+10309,2025-11-05,1171,69,Male,Chennai,P007,8,5,UPI,154,Completed,Hand Sanitizer,Personal Care,180,1368.0
+10310,2025-11-06,1095,60,Female,Coimbatore,P001,5,15,UPI,197,Completed,Glucometer,Diabetes Care,1200,5100.0
+10311,2025-11-07,1017,44,Male,Tiruppur,P003,1,0,Credit Card,96,Completed,Blood Pressure Monitor,Diagnostics,1800,1800.0
+10312,2025-11-08,1160,49,Male,Tiruppur,P002,8,15,UPI,97,Completed,Glucose Test Strips,Diabetes Care,650,4420.0
+10313,2025-11-09,1085,31,Female,Trichy,P009,7,20,COD,182,Completed,Pain Relief Gel,Pain Relief,250,1400.0
+10314,2025-11-10,1168,74,Female,Madurai,P010,5,0,UPI,78,Completed,First Aid Kit,First Aid,750,3750.0
+10315,2025-11-11,1151,35,Male,Trichy,P006,9,20,UPI,169,Cancelled,Calcium Tablets,Supplements,300,2160.0
+10316,2025-11-12,1056,45,Female,Coimbatore,P010,5,5,UPI,181,Completed,First Aid Kit,First Aid,750,3562.5
+10317,2025-11-13,1134,46,Female,Trichy,P003,4,0,COD,96,Completed,Blood Pressure Monitor,Diagnostics,1800,7200.0
+10318,2025-11-14,1086,33,Male,Tiruppur,P008,9,20,Debit Card,110,Completed,Surgical Mask,Personal Care,120,864.0
+10319,2025-11-15,1178,52,Male,Madurai,P008,9,5,UPI,17,Completed,Surgical Mask,Personal Care,120,1026.0
+10320,2025-11-16,1102,64,Male,Coimbatore,P002,9,15,Credit Card,86,Completed,Glucose Test Strips,Diabetes Care,650,4972.5
+10321,2025-11-17,1165,48,Male,Tiruppur,P006,7,5,COD,96,Completed,Calcium Tablets,Supplements,300,1995.0
+10322,2025-11-18,1192,21,Female,Chennai,P007,9,10,Credit Card,52,Completed,Hand Sanitizer,Personal Care,180,1458.0
+10323,2025-11-19,1054,54,Male,Salem,P002,5,5,UPI,138,Completed,Glucose Test Strips,Diabetes Care,650,3087.5
+10324,2025-11-20,1200,34,Male,Coimbatore,P010,4,5,Credit Card,118,Completed,First Aid Kit,First Aid,750,2850.0
+10325,2025-11-21,1177,56,Male,Madurai,P002,9,10,UPI,188,Completed,Glucose Test Strips,Diabetes Care,650,5265.0
+10326,2025-11-22,1115,65,Female,Trichy,P010,8,20,COD,161,Completed,First Aid Kit,First Aid,750,4800.0
+10327,2025-11-23,1139,63,Male,Trichy,P001,8,20,Credit Card,161,Completed,Glucometer,Diabetes Care,1200,7680.0
+10328,2025-11-24,1088,43,Female,Coimbatore,P008,9,5,Credit Card,26,Completed,Surgical Mask,Personal Care,120,1026.0
+10329,2025-11-25,1049,65,Male,Madurai,P001,5,10,UPI,142,Completed,Glucometer,Diabetes Care,1200,5400.0
+10330,2025-11-26,1149,56,Male,Coimbatore,P009,6,10,UPI,157,Completed,Pain Relief Gel,Pain Relief,250,1350.0
+10331,2025-11-27,1115,58,Female,Madurai,P006,7,15,Debit Card,30,Completed,Calcium Tablets,Supplements,300,1785.0
+10332,2025-11-28,1194,21,Male,Trichy,P007,9,20,UPI,67,Completed,Hand Sanitizer,Personal Care,180,1296.0
+10333,2025-11-29,1063,47,Male,Tiruppur,P010,5,0,UPI,168,Cancelled,First Aid Kit,First Aid,750,3750.0
+10334,2025-11-30,1104,47,Female,Chennai,P007,9,20,Debit Card,119,Completed,Hand Sanitizer,Personal Care,180,1296.0
+10335,2025-12-01,1083,39,Male,Tiruppur,P010,6,20,UPI,148,Completed,First Aid Kit,First Aid,750,3600.0
+10336,2025-12-02,1103,28,Male,Chennai,P003,4,15,UPI,189,Completed,Blood Pressure Monitor,Diagnostics,1800,6120.0
+10337,2025-12-03,1156,19,Male,Trichy,P002,7,0,Debit Card,152,Completed,Glucose Test Strips,Diabetes Care,650,4550.0
+10338,2025-12-04,1017,61,Male,Tiruppur,P009,8,15,COD,144,Cancelled,Pain Relief Gel,Pain Relief,250,1700.0
+10339,2025-12-05,1006,29,Female,Tiruppur,P008,7,0,COD,37,Completed,Surgical Mask,Personal Care,120,840.0
+10340,2025-12-06,1147,47,Male,Coimbatore,P010,2,5,UPI,60,Completed,First Aid Kit,First Aid,750,1425.0
+10341,2025-12-07,1184,53,Female,Salem,P007,7,0,UPI,195,Completed,Hand Sanitizer,Personal Care,180,1260.0
+10342,2025-12-08,1028,35,Male,Trichy,P009,5,15,Debit Card,14,Completed,Pain Relief Gel,Pain Relief,250,1062.5
+10343,2025-12-09,1194,43,Female,Madurai,P004,8,20,Debit Card,14,Completed,Digital Thermometer,Diagnostics,350,2240.0
+10344,2025-12-10,1038,70,Male,Trichy,P004,6,0,COD,103,Cancelled,Digital Thermometer,Diagnostics,350,2100.0
+10345,2025-12-11,1119,24,Female,Madurai,P001,3,0,Credit Card,105,Completed,Glucometer,Diabetes Care,1200,3600.0
+10346,2025-12-12,1037,18,Male,Madurai,P008,9,10,UPI,17,Completed,Surgical Mask,Personal Care,120,972.0
+10347,2025-12-13,1115,43,Female,Chennai,P003,6,20,Credit Card,73,Cancelled,Blood Pressure Monitor,Diagnostics,1800,8640.0
+10348,2025-12-14,1068,40,Female,Madurai,P007,9,5,Credit Card,147,Completed,Hand Sanitizer,Personal Care,180,1539.0
+10349,2025-12-15,1177,43,Male,Madurai,P002,9,15,Debit Card,47,Completed,Glucose Test Strips,Diabetes Care,650,4972.5
+10350,2025-12-16,1043,62,Female,Coimbatore,P002,6,5,UPI,120,Completed,Glucose Test Strips,Diabetes Care,650,3705.0
+10351,2025-12-17,1164,23,Male,Tiruppur,P007,9,20,UPI,121,Completed,Hand Sanitizer,Personal Care,180,1296.0
+10352,2025-12-18,1058,23,Male,Trichy,P006,6,0,Debit Card,90,Completed,Calcium Tablets,Supplements,300,1800.0
+10353,2025-12-19,1013,61,Male,Trichy,P003,4,0,Credit Card,145,Completed,Blood Pressure Monitor,Diagnostics,1800,7200.0
+10354,2025-12-20,1052,25,Male,Madurai,P009,6,20,Debit Card,113,Completed,Pain Relief Gel,Pain Relief,250,1200.0
+10355,2025-12-21,1058,41,Male,Salem,P010,2,0,COD,162,Completed,First Aid Kit,First Aid,750,1500.0
+10356,2025-12-22,1032,39,Female,Trichy,P006,7,0,UPI,82,Completed,Calcium Tablets,Supplements,300,2100.0
+10357,2025-12-23,1105,36,Male,Madurai,P010,4,0,COD,187,Completed,First Aid Kit,First Aid,750,3000.0
+10358,2025-12-24,1188,54,Male,Chennai,P010,5,15,Debit Card,58,Completed,First Aid Kit,First Aid,750,3187.5
+10359,2025-12-25,1083,35,Male,Chennai,P006,7,15,UPI,45,Completed,Calcium Tablets,Supplements,300,1785.0
+10360,2025-12-26,1186,48,Male,Chennai,P001,7,10,COD,135,Completed,Glucometer,Diabetes Care,1200,7560.0
+10361,2025-12-27,1099,54,Male,Madurai,P004,5,5,COD,77,Completed,Digital Thermometer,Diagnostics,350,1662.5
+10362,2025-12-28,1104,47,Male,Coimbatore,P010,8,20,Credit Card,87,Completed,First Aid Kit,First Aid,750,4800.0
+10363,2025-12-29,1184,74,Female,Salem,P006,7,20,UPI,114,Completed,Calcium Tablets,Supplements,300,1680.0
+10364,2025-12-30,1028,59,Female,Madurai,P006,9,20,COD,178,Completed,Calcium Tablets,Supplements,300,2160.0
+10365,2025-12-31,1129,50,Male,Coimbatore,P005,6,10,COD,131,Completed,Vitamin D Tablets,Supplements,450,2430.0
+10366,2026-01-01,1170,27,Female,Coimbatore,P001,6,15,Credit Card,128,Completed,Glucometer,Diabetes Care,1200,6120.0
+10367,2026-01-02,1048,54,Male,Trichy,P008,9,10,COD,199,Completed,Surgical Mask,Personal Care,120,972.0
+10368,2026-01-03,1040,29,Male,Madurai,P005,6,20,COD,123,Completed,Vitamin D Tablets,Supplements,450,2160.0
+10369,2026-01-04,1097,71,Male,Madurai,P005,5,5,COD,19,Completed,Vitamin D Tablets,Supplements,450,2137.5
+10370,2026-01-05,1191,47,Male,Coimbatore,P007,6,0,Credit Card,158,Completed,Hand Sanitizer,Personal Care,180,1080.0
+10371,2026-01-06,1200,44,Male,Coimbatore,P004,8,15,COD,173,Cancelled,Digital Thermometer,Diagnostics,350,2380.0
+10372,2026-01-07,1114,56,Female,Coimbatore,P006,6,15,COD,149,Completed,Calcium Tablets,Supplements,300,1530.0
+10373,2026-01-08,1132,26,Female,Trichy,P004,6,10,UPI,100,Completed,Digital Thermometer,Diagnostics,350,1890.0
+10374,2026-01-09,1166,71,Female,Madurai,P003,3,15,UPI,11,Completed,Blood Pressure Monitor,Diagnostics,1800,4590.0
+10375,2026-01-10,1155,38,Female,Coimbatore,P007,6,20,Credit Card,127,Completed,Hand Sanitizer,Personal Care,180,864.0
+10376,2026-01-11,1137,29,Male,Chennai,P008,9,20,Debit Card,22,Completed,Surgical Mask,Personal Care,120,864.0
+10377,2026-01-12,1111,72,Female,Madurai,P004,9,10,UPI,190,Completed,Digital Thermometer,Diagnostics,350,2835.0
+10378,2026-01-13,1144,46,Male,Trichy,P002,9,20,Credit Card,169,Completed,Glucose Test Strips,Diabetes Care,650,4680.0
+10379,2026-01-14,1184,50,Female,Chennai,P010,4,5,COD,104,Completed,First Aid Kit,First Aid,750,2850.0
+10380,2026-01-15,1076,60,Female,Tiruppur,P003,3,10,COD,153,Completed,Blood Pressure Monitor,Diagnostics,1800,4860.0
+10381,2026-01-16,1031,70,Female,Madurai,P001,4,5,Credit Card,41,Completed,Glucometer,Diabetes Care,1200,4560.0
+10382,2026-01-17,1119,32,Female,Tiruppur,P008,9,0,COD,41,Completed,Surgical Mask,Personal Care,120,1080.0
+10383,2026-01-18,1142,19,Male,Coimbatore,P003,1,5,COD,133,Completed,Blood Pressure Monitor,Diagnostics,1800,1710.0
+10384,2026-01-19,1025,69,Female,Trichy,P010,4,0,Debit Card,20,Completed,First Aid Kit,First Aid,750,3000.0
+10385,2026-01-20,1034,56,Female,Coimbatore,P007,8,0,COD,19,Completed,Hand Sanitizer,Personal Care,180,1440.0
+10386,2026-01-21,1067,70,Male,Trichy,P010,4,5,UPI,24,Completed,First Aid Kit,First Aid,750,2850.0
+10387,2026-01-22,1152,61,Male,Salem,P005,6,10,COD,26,Cancelled,Vitamin D Tablets,Supplements,450,2430.0
+10388,2026-01-23,1118,71,Female,Coimbatore,P010,5,20,Credit Card,177,Cancelled,First Aid Kit,First Aid,750,3000.0
+10389,2026-01-24,1073,35,Male,Tiruppur,P005,7,20,Debit Card,155,Completed,Vitamin D Tablets,Supplements,450,2520.0
+10390,2026-01-25,1026,20,Male,Trichy,P007,8,0,COD,192,Completed,Hand Sanitizer,Personal Care,180,1440.0
+10391,2026-01-26,1148,24,Male,Coimbatore,P009,4,0,Credit Card,162,Completed,Pain Relief Gel,Pain Relief,250,1000.0
+10392,2026-01-27,1192,60,Female,Madurai,P005,5,10,UPI,68,Completed,Vitamin D Tablets,Supplements,450,2025.0
+10393,2026-01-28,1104,35,Male,Trichy,P001,5,15,COD,87,Completed,Glucometer,Diabetes Care,1200,5100.0
+10394,2026-01-29,1010,61,Female,Trichy,P010,5,5,Debit Card,133,Completed,First Aid Kit,First Aid,750,3562.5
+10395,2026-01-30,1067,55,Female,Coimbatore,P010,2,0,COD,123,Cancelled,First Aid Kit,First Aid,750,1500.0
+10396,2026-01-31,1152,54,Female,Salem,P001,4,20,Credit Card,31,Completed,Glucometer,Diabetes Care,1200,3840.0
+10397,2026-02-01,1005,50,Female,Coimbatore,P002,7,10,Debit Card,167,Completed,Glucose Test Strips,Diabetes Care,650,4095.0
+10398,2026-02-02,1195,61,Male,Tiruppur,P006,6,5,COD,181,Completed,Calcium Tablets,Supplements,300,1710.0
+10399,2026-02-03,1186,48,Female,Tiruppur,P009,5,10,UPI,41,Completed,Pain Relief Gel,Pain Relief,250,1125.0
+10400,2026-02-04,1027,28,Male,Trichy,P008,9,5,Debit Card,188,Completed,Surgical Mask,Personal Care,120,1026.0
+10401,2026-02-05,1113,21,Female,Trichy,P005,4,5,UPI,183,Completed,Vitamin D Tablets,Supplements,450,1710.0
+10402,2026-02-06,1015,35,Male,Coimbatore,P001,5,0,Credit Card,122,Completed,Glucometer,Diabetes Care,1200,6000.0
+10403,2026-02-07,1163,21,Female,Tiruppur,P007,6,10,COD,129,Completed,Hand Sanitizer,Personal Care,180,972.0
+10404,2026-02-08,1105,66,Male,Tiruppur,P005,4,10,UPI,158,Cancelled,Vitamin D Tablets,Supplements,450,1620.0
+10405,2026-02-09,1181,51,Female,Salem,P006,7,20,Credit Card,131,Completed,Calcium Tablets,Supplements,300,1680.0
+10406,2026-02-10,1044,46,Female,Madurai,P007,7,20,COD,41,Completed,Hand Sanitizer,Personal Care,180,1008.0
+10407,2026-02-11,1026,41,Male,Salem,P003,2,0,Credit Card,128,Completed,Blood Pressure Monitor,Diagnostics,1800,3600.0
+10408,2026-02-12,1175,39,Female,Chennai,P010,5,0,UPI,48,Completed,First Aid Kit,First Aid,750,3750.0
+10409,2026-02-13,1162,19,Female,Salem,P003,4,15,Credit Card,21,Completed,Blood Pressure Monitor,Diagnostics,1800,6120.0
+10410,2026-02-14,1095,61,Female,Coimbatore,P005,7,20,Debit Card,184,Cancelled,Vitamin D Tablets,Supplements,450,2520.0
+10411,2026-02-15,1178,23,Male,Madurai,P006,4,5,COD,27,Completed,Calcium Tablets,Supplements,300,1140.0
+10412,2026-02-16,1084,59,Female,Coimbatore,P009,4,10,Credit Card,158,Cancelled,Pain Relief Gel,Pain Relief,250,900.0
+10413,2026-02-17,1140,42,Female,Chennai,P005,4,0,UPI,150,Completed,Vitamin D Tablets,Supplements,450,1800.0
+10414,2026-02-18,1132,72,Male,Madurai,P001,4,10,COD,158,Completed,Glucometer,Diabetes Care,1200,4320.0
+10415,2026-02-19,1087,74,Male,Trichy,P004,8,10,Debit Card,135,Returned,Digital Thermometer,Diagnostics,350,2520.0
+10416,2026-02-20,1176,38,Male,Tiruppur,P005,6,15,COD,145,Completed,Vitamin D Tablets,Supplements,450,2295.0
+10417,2026-02-21,1183,72,Male,Salem,P010,4,20,Debit Card,55,Completed,First Aid Kit,First Aid,750,2400.0
+10418,2026-02-22,1112,33,Male,Coimbatore,P010,3,0,COD,113,Completed,First Aid Kit,First Aid,750,2250.0
+10419,2026-02-23,1129,48,Female,Chennai,P005,6,10,Credit Card,144,Completed,Vitamin D Tablets,Supplements,450,2430.0
+10420,2026-02-24,1089,31,Female,Tiruppur,P007,8,0,Credit Card,160,Completed,Hand Sanitizer,Personal Care,180,1440.0
+10421,2026-02-25,1066,56,Female,Salem,P004,7,5,UPI,95,Returned,Digital Thermometer,Diagnostics,350,2327.5
+10422,2026-02-26,1158,45,Male,Tiruppur,P001,4,15,Debit Card,159,Completed,Glucometer,Diabetes Care,1200,4080.0
+10423,2026-02-27,1131,49,Female,Salem,P005,4,5,UPI,98,Completed,Vitamin D Tablets,Supplements,450,1710.0
+10424,2026-02-28,1122,45,Male,Trichy,P007,5,0,Credit Card,31,Cancelled,Hand Sanitizer,Personal Care,180,900.0
+10425,2026-03-01,1149,68,Male,Madurai,P010,3,0,Debit Card,101,Completed,First Aid Kit,First Aid,750,2250.0
+10426,2026-03-02,1084,72,Female,Tiruppur,P010,6,20,UPI,38,Completed,First Aid Kit,First Aid,750,3600.0
+10427,2026-03-03,1177,66,Male,Tiruppur,P006,7,10,UPI,22,Completed,Calcium Tablets,Supplements,300,1890.0
+10428,2026-03-04,1116,26,Male,Tiruppur,P005,5,10,UPI,11,Completed,Vitamin D Tablets,Supplements,450,2025.0
+10429,2026-03-05,1190,62,Female,Madurai,P004,5,5,UPI,38,Completed,Digital Thermometer,Diagnostics,350,1662.5
+10430,2026-03-06,1116,39,Male,Chennai,P002,8,15,UPI,189,Returned,Glucose Test Strips,Diabetes Care,650,4420.0
+10431,2026-03-07,1038,49,Male,Salem,P004,5,10,Debit Card,36,Completed,Digital Thermometer,Diagnostics,350,1575.0
+10432,2026-03-08,1143,22,Female,Trichy,P010,8,20,UPI,59,Completed,First Aid Kit,First Aid,750,4800.0
+10433,2026-03-09,1110,40,Male,Tiruppur,P010,2,5,Debit Card,104,Completed,First Aid Kit,First Aid,750,1425.0
+10434,2026-03-10,1180,22,Male,Madurai,P003,3,5,UPI,160,Completed,Blood Pressure Monitor,Diagnostics,1800,5130.0
+10435,2026-03-11,1046,59,Female,Chennai,P010,8,20,Credit Card,97,Completed,First Aid Kit,First Aid,750,4800.0
+10436,2026-03-12,1025,70,Female,Salem,P001,5,15,Credit Card,53,Completed,Glucometer,Diabetes Care,1200,5100.0
+10437,2026-03-13,1021,49,Female,Madurai,P008,9,20,UPI,31,Completed,Surgical Mask,Personal Care,120,864.0
+10438,2026-03-14,1121,27,Female,Trichy,P005,5,15,COD,180,Completed,Vitamin D Tablets,Supplements,450,1912.5
+10439,2026-03-15,1122,56,Male,Trichy,P004,7,20,Credit Card,174,Completed,Digital Thermometer,Diagnostics,350,1960.0
+10440,2026-03-16,1133,32,Male,Salem,P008,9,20,Debit Card,198,Completed,Surgical Mask,Personal Care,120,864.0
+10441,2026-03-17,1070,24,Female,Tiruppur,P007,4,0,UPI,106,Completed,Hand Sanitizer,Personal Care,180,720.0
+10442,2026-03-18,1113,46,Male,Trichy,P002,8,5,Debit Card,193,Completed,Glucose Test Strips,Diabetes Care,650,4940.0
+10443,2026-03-19,1107,64,Male,Chennai,P001,4,20,COD,12,Completed,Glucometer,Diabetes Care,1200,3840.0
+10444,2026-03-20,1112,20,Female,Madurai,P004,7,20,UPI,127,Completed,Digital Thermometer,Diagnostics,350,1960.0
+10445,2026-03-21,1108,36,Female,Chennai,P008,9,10,Credit Card,28,Completed,Surgical Mask,Personal Care,120,972.0
+10446,2026-03-22,1047,27,Male,Tiruppur,P002,7,5,Debit Card,32,Completed,Glucose Test Strips,Diabetes Care,650,4322.5
+10447,2026-03-23,1196,45,Female,Chennai,P003,1,10,Credit Card,166,Completed,Blood Pressure Monitor,Diagnostics,1800,1620.0
+10448,2026-03-24,1091,46,Female,Chennai,P001,4,5,Credit Card,39,Completed,Glucometer,Diabetes Care,1200,4560.0
+10449,2026-03-25,1018,32,Female,Coimbatore,P001,7,10,UPI,48,Completed,Glucometer,Diabetes Care,1200,7560.0
+10450,2026-03-26,1149,52,Male,Chennai,P003,3,20,Debit Card,117,Completed,Blood Pressure Monitor,Diagnostics,1800,4320.0
+10451,2026-03-27,1104,23,Female,Salem,P005,7,20,COD,120,Completed,Vitamin D Tablets,Supplements,450,2520.0
+10452,2026-03-28,1151,29,Male,Madurai,P003,1,0,Credit Card,34,Completed,Blood Pressure Monitor,Diagnostics,1800,1800.0
+10453,2026-03-29,1192,64,Male,Coimbatore,P001,5,10,UPI,137,Cancelled,Glucometer,Diabetes Care,1200,5400.0
+10454,2026-03-30,1195,55,Male,Madurai,P001,5,15,UPI,120,Cancelled,Glucometer,Diabetes Care,1200,5100.0
+10455,2026-03-31,1040,30,Female,Madurai,P008,7,0,COD,145,Completed,Surgical Mask,Personal Care,120,840.0
+10456,2026-04-01,1138,46,Female,Tiruppur,P010,5,10,UPI,115,Completed,First Aid Kit,First Aid,750,3375.0
+10457,2026-04-02,1089,36,Female,Tiruppur,P002,9,10,Credit Card,195,Completed,Glucose Test Strips,Diabetes Care,650,5265.0
+10458,2026-04-03,1180,20,Female,Coimbatore,P003,2,0,UPI,153,Completed,Blood Pressure Monitor,Diagnostics,1800,3600.0
+10459,2026-04-04,1200,25,Female,Trichy,P002,9,20,Debit Card,81,Completed,Glucose Test Strips,Diabetes Care,650,4680.0
+10460,2026-04-05,1061,25,Male,Tiruppur,P003,2,10,Debit Card,138,Completed,Blood Pressure Monitor,Diagnostics,1800,3240.0
+10461,2026-04-06,1192,72,Male,Tiruppur,P007,8,20,Credit Card,117,Completed,Hand Sanitizer,Personal Care,180,1152.0
+10462,2026-04-07,1005,37,Male,Tiruppur,P001,4,0,Debit Card,14,Completed,Glucometer,Diabetes Care,1200,4800.0
+10463,2026-04-08,1122,64,Female,Madurai,P010,7,20,COD,12,Returned,First Aid Kit,First Aid,750,4200.0
+10464,2026-04-09,1181,21,Male,Coimbatore,P008,9,5,UPI,141,Completed,Surgical Mask,Personal Care,120,1026.0
+10465,2026-04-10,1055,68,Male,Madurai,P010,4,15,Credit Card,113,Completed,First Aid Kit,First Aid,750,2550.0
+10466,2026-04-11,1037,38,Female,Salem,P010,4,10,COD,73,Completed,First Aid Kit,First Aid,750,2700.0
+10467,2026-04-12,1056,20,Female,Madurai,P010,3,15,UPI,115,Completed,First Aid Kit,First Aid,750,1912.5
+10468,2026-04-13,1187,62,Male,Salem,P002,9,20,COD,107,Completed,Glucose Test Strips,Diabetes Care,650,4680.0
+10469,2026-04-14,1102,25,Male,Chennai,P003,4,10,Credit Card,19,Completed,Blood Pressure Monitor,Diagnostics,1800,6480.0
+10470,2026-04-15,1093,40,Female,Chennai,P009,6,20,Credit Card,158,Completed,Pain Relief Gel,Pain Relief,250,1200.0
+10471,2026-04-16,1197,33,Female,Salem,P007,7,5,COD,137,Completed,Hand Sanitizer,Personal Care,180,1197.0
+10472,2026-04-17,1073,30,Female,Salem,P004,5,0,UPI,55,Completed,Digital Thermometer,Diagnostics,350,1750.0
+10473,2026-04-18,1059,20,Female,Madurai,P010,4,10,Debit Card,164,Returned,First Aid Kit,First Aid,750,2700.0
+10474,2026-04-19,1002,65,Male,Salem,P005,5,5,Debit Card,75,Completed,Vitamin D Tablets,Supplements,450,2137.5
+10475,2026-04-20,1193,26,Male,Coimbatore,P002,9,5,COD,178,Completed,Glucose Test Strips,Diabetes Care,650,5557.5
+10476,2026-04-21,1104,31,Female,Chennai,P008,9,10,Credit Card,121,Completed,Surgical Mask,Personal Care,120,972.0
+10477,2026-04-22,1188,30,Male,Chennai,P004,7,20,UPI,22,Completed,Digital Thermometer,Diagnostics,350,1960.0
+10478,2026-04-23,1051,70,Male,Trichy,P009,4,5,UPI,146,Completed,Pain Relief Gel,Pain Relief,250,950.0
+10479,2026-04-24,1030,74,Female,Salem,P005,7,15,Credit Card,173,Completed,Vitamin D Tablets,Supplements,450,2677.5
+10480,2026-04-25,1011,24,Male,Tiruppur,P009,4,5,Debit Card,95,Completed,Pain Relief Gel,Pain Relief,250,950.0
+10481,2026-04-26,1108,32,Male,Tiruppur,P004,7,20,UPI,99,Completed,Digital Thermometer,Diagnostics,350,1960.0
+10482,2026-04-27,1076,24,Male,Salem,P010,7,20,COD,67,Completed,First Aid Kit,First Aid,750,4200.0
+10483,2026-04-28,1167,55,Female,Coimbatore,P005,8,15,Debit Card,63,Completed,Vitamin D Tablets,Supplements,450,3060.0
+10484,2026-04-29,1090,51,Female,Tiruppur,P009,4,5,COD,21,Cancelled,Pain Relief Gel,Pain Relief,250,950.0
+10485,2026-04-30,1123,58,Male,Trichy,P008,8,20,Debit Card,23,Completed,Surgical Mask,Personal Care,120,768.0
+10486,2026-05-01,1200,39,Female,Salem,P003,4,10,Credit Card,130,Completed,Blood Pressure Monitor,Diagnostics,1800,6480.0
+10487,2026-05-02,1191,41,Female,Coimbatore,P001,2,0,COD,171,Completed,Glucometer,Diabetes Care,1200,2400.0
+10488,2026-05-03,1192,66,Female,Coimbatore,P003,3,0,COD,190,Cancelled,Blood Pressure Monitor,Diagnostics,1800,5400.0
+10489,2026-05-04,1189,54,Male,Madurai,P004,3,0,Credit Card,130,Completed,Digital Thermometer,Diagnostics,350,1050.0
+10490,2026-05-05,1125,61,Male,Coimbatore,P002,8,5,COD,29,Completed,Glucose Test Strips,Diabetes Care,650,4940.0
+10491,2026-05-06,1182,18,Female,Tiruppur,P001,3,15,Debit Card,84,Completed,Glucometer,Diabetes Care,1200,3060.0
+10492,2026-05-07,1122,27,Male,Tiruppur,P007,9,20,UPI,153,Completed,Hand Sanitizer,Personal Care,180,1296.0
+10493,2026-05-08,1094,60,Male,Salem,P008,9,10,UPI,79,Completed,Surgical Mask,Personal Care,120,972.0
+10494,2026-05-09,1103,33,Male,Salem,P007,7,10,Credit Card,65,Completed,Hand Sanitizer,Personal Care,180,1134.0
+10495,2026-05-10,1186,63,Male,Coimbatore,P005,4,5,Debit Card,110,Returned,Vitamin D Tablets,Supplements,450,1710.0
+10496,2026-05-11,1184,25,Male,Trichy,P001,4,0,COD,195,Completed,Glucometer,Diabetes Care,1200,4800.0
+10497,2026-05-12,1162,73,Female,Chennai,P007,8,5,COD,141,Cancelled,Hand Sanitizer,Personal Care,180,1368.0
+10498,2026-05-13,1031,66,Male,Madurai,P007,9,15,UPI,120,Completed,Hand Sanitizer,Personal Care,180,1377.0
+10499,2026-05-14,1052,42,Male,Chennai,P009,8,15,COD,134,Completed,Pain Relief Gel,Pain Relief,250,1700.0
+10500,2026-05-15,1089,67,Male,Coimbatore,P003,3,20,UPI,141,Cancelled,Blood Pressure Monitor,Diagnostics,1800,4320.0
+10501,2026-05-16,1076,29,Female,Coimbatore,P009,8,20,Credit Card,29,Completed,Pain Relief Gel,Pain Relief,250,1600.0
+10502,2026-05-17,1129,42,Female,Chennai,P001,5,15,COD,147,Completed,Glucometer,Diabetes Care,1200,5100.0
+10503,2026-05-18,1183,34,Female,Madurai,P001,4,15,Debit Card,33,Completed,Glucometer,Diabetes Care,1200,4080.0
+10504,2026-05-19,1022,43,Male,Chennai,P004,5,15,COD,163,Completed,Digital Thermometer,Diagnostics,350,1487.5
+10505,2026-05-20,1040,63,Female,Salem,P009,4,5,UPI,46,Completed,Pain Relief Gel,Pain Relief,250,950.0
+10506,2026-05-21,1101,65,Female,Tiruppur,P006,8,15,Credit Card,63,Completed,Calcium Tablets,Supplements,300,2040.0
+10507,2026-05-22,1111,31,Female,Trichy,P003,3,10,UPI,112,Completed,Blood Pressure Monitor,Diagnostics,1800,4860.0
+10508,2026-05-23,1129,58,Female,Salem,P001,5,0,COD,158,Completed,Glucometer,Diabetes Care,1200,6000.0
+10509,2026-05-24,1065,53,Male,Tiruppur,P004,5,15,UPI,47,Completed,Digital Thermometer,Diagnostics,350,1487.5
+10510,2026-05-25,1191,74,Female,Trichy,P009,4,0,UPI,183,Completed,Pain Relief Gel,Pain Relief,250,1000.0
+10511,2026-05-26,1182,40,Female,Trichy,P003,1,5,Credit Card,13,Completed,Blood Pressure Monitor,Diagnostics,1800,1710.0
+10512,2026-05-27,1170,60,Male,Trichy,P009,4,0,Debit Card,197,Completed,Pain Relief Gel,Pain Relief,250,1000.0
+10513,2026-05-28,1149,23,Male,Coimbatore,P007,9,5,COD,66,Completed,Hand Sanitizer,Personal Care,180,1539.0
+10514,2026-05-29,1079,64,Female,Trichy,P004,6,10,Credit Card,182,Completed,Digital Thermometer,Diagnostics,350,1890.0
+10515,2026-05-30,1022,22,Male,Madurai,P003,1,5,Debit Card,29,Completed,Blood Pressure Monitor,Diagnostics,1800,1710.0
+10516,2026-05-31,1166,60,Female,Chennai,P010,4,5,UPI,26,Cancelled,First Aid Kit,First Aid,750,2850.0
+10517,2026-06-01,1099,42,Male,Madurai,P005,7,20,Debit Card,128,Completed,Vitamin D Tablets,Supplements,450,2520.0
+10518,2026-06-02,1008,35,Male,Chennai,P005,6,15,UPI,80,Completed,Vitamin D Tablets,Supplements,450,2295.0
+10519,2026-06-03,1190,30,Female,Salem,P003,5,15,UPI,13,Completed,Blood Pressure Monitor,Diagnostics,1800,7650.0
+10520,2026-06-04,1175,60,Male,Salem,P009,4,10,Credit Card,23,Completed,Pain Relief Gel,Pain Relief,250,900.0
+10521,2026-06-05,1017,31,Female,Chennai,P004,7,10,UPI,12,Completed,Digital Thermometer,Diagnostics,350,2205.0
+10522,2026-06-06,1017,45,Male,Madurai,P005,7,15,Credit Card,89,Completed,Vitamin D Tablets,Supplements,450,2677.5
+10523,2026-06-07,1090,35,Female,Chennai,P004,5,20,Debit Card,195,Completed,Digital Thermometer,Diagnostics,350,1400.0
+10524,2026-06-08,1141,74,Male,Trichy,P005,6,15,Debit Card,64,Returned,Vitamin D Tablets,Supplements,450,2295.0
+10525,2026-06-09,1145,45,Male,Coimbatore,P007,9,20,UPI,141,Completed,Hand Sanitizer,Personal Care,180,1296.0
+10526,2026-06-10,1166,68,Male,Salem,P009,5,10,Credit Card,129,Completed,Pain Relief Gel,Pain Relief,250,1125.0
+10527,2026-06-11,1081,73,Male,Coimbatore,P007,7,0,UPI,33,Completed,Hand Sanitizer,Personal Care,180,1260.0
+10528,2026-06-12,1078,44,Male,Trichy,P005,5,10,Credit Card,171,Cancelled,Vitamin D Tablets,Supplements,450,2025.0
+10529,2026-06-13,1173,49,Female,Trichy,P010,3,10,Credit Card,167,Completed,First Aid Kit,First Aid,750,2025.0
+10530,2026-06-14,1006,64,Male,Salem,P010,4,5,Credit Card,91,Completed,First Aid Kit,First Aid,750,2850.0
+10531,2026-06-15,1163,26,Female,Salem,P007,6,5,Debit Card,156,Completed,Hand Sanitizer,Personal Care,180,1026.0
+10532,2026-06-16,1110,57,Female,Trichy,P010,2,5,Credit Card,168,Completed,First Aid Kit,First Aid,750,1425.0
+10533,2026-06-17,1014,49,Female,Tiruppur,P005,5,5,Debit Card,197,Completed,Vitamin D Tablets,Supplements,450,2137.5
+10534,2026-06-18,1072,37,Male,Coimbatore,P003,3,20,Credit Card,69,Completed,Blood Pressure Monitor,Diagnostics,1800,4320.0
+10535,2026-06-19,1189,45,Female,Coimbatore,P007,9,15,Debit Card,156,Completed,Hand Sanitizer,Personal Care,180,1377.0
+10536,2026-06-20,1143,50,Male,Tiruppur,P002,7,0,COD,58,Completed,Glucose Test Strips,Diabetes Care,650,4550.0
+10537,2026-06-21,1054,21,Female,Madurai,P009,3,10,Debit Card,72,Completed,Pain Relief Gel,Pain Relief,250,675.0
+10538,2026-06-22,1027,63,Female,Coimbatore,P010,5,20,Debit Card,119,Completed,First Aid Kit,First Aid,750,3000.0
+10539,2026-06-23,1013,74,Female,Chennai,P010,4,0,UPI,159,Completed,First Aid Kit,First Aid,750,3000.0
+10540,2026-06-24,1159,51,Female,Trichy,P001,4,20,Credit Card,161,Completed,Glucometer,Diabetes Care,1200,3840.0
+10541,2026-06-25,1163,65,Female,Trichy,P006,7,20,COD,118,Completed,Calcium Tablets,Supplements,300,1680.0
+10542,2026-06-26,1060,20,Male,Tiruppur,P007,9,10,UPI,85,Completed,Hand Sanitizer,Personal Care,180,1458.0
+10543,2026-06-27,1006,43,Female,Coimbatore,P008,9,15,Credit Card,39,Completed,Surgical Mask,Personal Care,120,918.0
+10544,2026-06-28,1197,25,Female,Madurai,P010,3,5,COD,67,Completed,First Aid Kit,First Aid,750,2137.5
+10545,2026-06-29,1058,23,Male,Coimbatore,P009,5,15,COD,126,Completed,Pain Relief Gel,Pain Relief,250,1062.5
+10546,2026-06-30,1049,33,Male,Trichy,P002,9,10,COD,168,Completed,Glucose Test Strips,Diabetes Care,650,5265.0
+10547,2026-07-01,1151,41,Male,Salem,P010,6,10,Credit Card,109,Completed,First Aid Kit,First Aid,750,4050.0
+10548,2026-07-02,1162,65,Female,Chennai,P002,8,10,COD,28,Completed,Glucose Test Strips,Diabetes Care,650,4680.0
+10549,2026-07-03,1026,56,Female,Tiruppur,P005,4,0,COD,185,Completed,Vitamin D Tablets,Supplements,450,1800.0
+10550,2026-07-04,1047,47,Female,Salem,P005,5,15,UPI,182,Cancelled,Vitamin D Tablets,Supplements,450,1912.5
+10551,2026-07-05,1005,62,Female,Madurai,P006,6,15,Debit Card,103,Completed,Calcium Tablets,Supplements,300,1530.0
+10552,2026-07-06,1020,30,Female,Salem,P003,5,20,Credit Card,192,Cancelled,Blood Pressure Monitor,Diagnostics,1800,7200.0
+10553,2026-07-07,1134,22,Female,Salem,P008,9,20,Debit Card,122,Completed,Surgical Mask,Personal Care,120,864.0
+10554,2026-07-08,1198,42,Male,Madurai,P001,7,20,UPI,192,Completed,Glucometer,Diabetes Care,1200,6720.0
+10555,2026-07-09,1059,37,Male,Salem,P006,7,10,Debit Card,155,Completed,Calcium Tablets,Supplements,300,1890.0
+10556,2026-07-10,1192,71,Female,Tiruppur,P004,5,15,COD,72,Completed,Digital Thermometer,Diagnostics,350,1487.5
+10557,2026-07-11,1146,35,Female,Trichy,P001,5,10,COD,125,Completed,Glucometer,Diabetes Care,1200,5400.0
+10558,2026-07-12,1132,64,Female,Coimbatore,P007,6,0,Credit Card,122,Completed,Hand Sanitizer,Personal Care,180,1080.0
+10559,2026-07-13,1017,35,Female,Salem,P009,6,20,Credit Card,56,Completed,Pain Relief Gel,Pain Relief,250,1200.0
+10560,2026-07-14,1014,19,Female,Tiruppur,P004,7,10,Credit Card,66,Completed,Digital Thermometer,Diagnostics,350,2205.0
+10561,2026-07-15,1013,27,Male,Coimbatore,P004,9,10,UPI,127,Completed,Digital Thermometer,Diagnostics,350,2835.0
+10562,2026-07-16,1135,72,Male,Coimbatore,P006,9,0,Credit Card,54,Completed,Calcium Tablets,Supplements,300,2700.0
+10563,2026-07-17,1128,62,Female,Salem,P003,3,5,UPI,170,Completed,Blood Pressure Monitor,Diagnostics,1800,5130.0
+10564,2026-07-18,1044,67,Male,Tiruppur,P006,7,15,COD,154,Completed,Calcium Tablets,Supplements,300,1785.0
+10565,2026-07-19,1119,64,Female,Trichy,P007,8,5,Debit Card,13,Completed,Hand Sanitizer,Personal Care,180,1368.0
+10566,2026-07-20,1143,29,Female,Salem,P010,6,20,COD,157,Completed,First Aid Kit,First Aid,750,3600.0
+10567,2026-07-21,1019,64,Female,Madurai,P010,4,10,COD,56,Completed,First Aid Kit,First Aid,750,2700.0
+10568,2026-07-22,1063,30,Male,Coimbatore,P003,4,0,COD,152,Cancelled,Blood Pressure Monitor,Diagnostics,1800,7200.0
+10569,2026-07-23,1163,67,Male,Salem,P007,7,0,Credit Card,56,Completed,Hand Sanitizer,Personal Care,180,1260.0
+10570,2026-07-24,1081,64,Female,Coimbatore,P003,4,15,Credit Card,87,Completed,Blood Pressure Monitor,Diagnostics,1800,6120.0
+10571,2026-07-25,1163,74,Male,Tiruppur,P002,7,5,Credit Card,133,Completed,Glucose Test Strips,Diabetes Care,650,4322.5
+10572,2026-07-26,1147,72,Male,Chennai,P010,5,15,Debit Card,84,Completed,First Aid Kit,First Aid,750,3187.5
+10573,2026-07-27,1148,28,Female,Salem,P004,7,10,Credit Card,112,Completed,Digital Thermometer,Diagnostics,350,2205.0
+10574,2026-07-28,1100,36,Male,Trichy,P008,9,15,UPI,146,Completed,Surgical Mask,Personal Care,120,918.0
+10575,2026-07-29,1163,52,Male,Salem,P009,3,0,COD,99,Completed,Pain Relief Gel,Pain Relief,250,750.0
+10576,2026-07-30,1160,56,Female,Coimbatore,P007,6,0,Debit Card,153,Cancelled,Hand Sanitizer,Personal Care,180,1080.0
+10577,2026-07-31,1122,70,Female,Tiruppur,P001,6,20,Debit Card,78,Completed,Glucometer,Diabetes Care,1200,5760.0
+10578,2026-08-01,1176,43,Male,Madurai,P003,5,20,Debit Card,70,Completed,Blood Pressure Monitor,Diagnostics,1800,7200.0
+10579,2026-08-02,1044,63,Female,Trichy,P009,6,10,Debit Card,147,Cancelled,Pain Relief Gel,Pain Relief,250,1350.0
+10580,2026-08-03,1104,31,Male,Tiruppur,P001,6,5,Debit Card,59,Completed,Glucometer,Diabetes Care,1200,6840.0
+10581,2026-08-04,1152,71,Female,Salem,P009,6,15,UPI,12,Completed,Pain Relief Gel,Pain Relief,250,1275.0
+10582,2026-08-05,1061,62,Female,Madurai,P008,9,10,COD,116,Completed,Surgical Mask,Personal Care,120,972.0
+10583,2026-08-06,1125,61,Female,Tiruppur,P001,4,20,Debit Card,122,Completed,Glucometer,Diabetes Care,1200,3840.0
+10584,2026-08-07,1145,41,Female,Chennai,P006,6,15,COD,103,Completed,Calcium Tablets,Supplements,300,1530.0
+10585,2026-08-08,1071,58,Male,Trichy,P005,7,20,Credit Card,127,Completed,Vitamin D Tablets,Supplements,450,2520.0
+10586,2026-08-09,1107,18,Female,Coimbatore,P006,8,15,Debit Card,90,Completed,Calcium Tablets,Supplements,300,2040.0
+10587,2026-08-10,1050,68,Female,Tiruppur,P010,3,5,Debit Card,118,Cancelled,First Aid Kit,First Aid,750,2137.5
+10588,2026-08-11,1065,60,Female,Tiruppur,P005,5,10,COD,60,Completed,Vitamin D Tablets,Supplements,450,2025.0
+10589,2026-08-12,1099,72,Male,Chennai,P006,5,15,Debit Card,156,Cancelled,Calcium Tablets,Supplements,300,1275.0
+10590,2026-08-13,1032,39,Male,Salem,P005,4,0,Debit Card,179,Cancelled,Vitamin D Tablets,Supplements,450,1800.0
+10591,2026-08-14,1164,40,Female,Trichy,P005,5,0,Debit Card,44,Completed,Vitamin D Tablets,Supplements,450,2250.0
+10592,2026-08-15,1141,73,Female,Trichy,P004,7,15,UPI,55,Completed,Digital Thermometer,Diagnostics,350,2082.5
+10593,2026-08-16,1198,71,Female,Coimbatore,P003,4,15,UPI,163,Completed,Blood Pressure Monitor,Diagnostics,1800,6120.0
+10594,2026-08-17,1058,36,Female,Tiruppur,P003,4,15,Debit Card,78,Completed,Blood Pressure Monitor,Diagnostics,1800,6120.0
+10595,2026-08-18,1128,35,Female,Madurai,P004,5,0,UPI,102,Completed,Digital Thermometer,Diagnostics,350,1750.0
+10596,2026-08-19,1142,29,Female,Tiruppur,P009,3,0,Credit Card,73,Cancelled,Pain Relief Gel,Pain Relief,250,750.0
+10597,2026-08-20,1165,72,Male,Coimbatore,P002,9,15,Debit Card,174,Completed,Glucose Test Strips,Diabetes Care,650,4972.5
+10598,2026-08-21,1112,45,Female,Tiruppur,P009,7,20,Credit Card,58,Completed,Pain Relief Gel,Pain Relief,250,1400.0
+10599,2026-08-22,1068,45,Female,Chennai,P001,6,20,COD,158,Completed,Glucometer,Diabetes Care,1200,5760.0
+10600,2026-08-23,1040,50,Female,Tiruppur,P001,3,5,Credit Card,83,Completed,Glucometer,Diabetes Care,1200,3420.0
+10601,2026-08-24,1187,36,Female,Tiruppur,P005,3,10,COD,14,Completed,Vitamin D Tablets,Supplements,450,1215.0
+10602,2026-08-25,1144,45,Female,Madurai,P006,9,20,Debit Card,109,Completed,Calcium Tablets,Supplements,300,2160.0
+10603,2026-08-26,1190,69,Female,Chennai,P006,4,0,COD,79,Completed,Calcium Tablets,Supplements,300,1200.0
+10604,2026-08-27,1132,66,Male,Chennai,P003,3,20,COD,99,Completed,Blood Pressure Monitor,Diagnostics,1800,4320.0
+10605,2026-08-28,1173,54,Male,Tiruppur,P007,8,5,Credit Card,13,Completed,Hand Sanitizer,Personal Care,180,1368.0
+10606,2026-08-29,1090,43,Male,Trichy,P009,4,5,Credit Card,135,Completed,Pain Relief Gel,Pain Relief,250,950.0
+10607,2026-08-30,1028,52,Male,Madurai,P010,5,10,Credit Card,48,Completed,First Aid Kit,First Aid,750,3375.0
+10608,2026-08-31,1096,51,Male,Tiruppur,P008,9,20,Debit Card,172,Completed,Surgical Mask,Personal Care,120,864.0
+10609,2026-09-01,1194,52,Male,Tiruppur,P006,6,0,Debit Card,138,Completed,Calcium Tablets,Supplements,300,1800.0
+10610,2026-09-02,1031,57,Female,Coimbatore,P008,6,0,Credit Card,33,Completed,Surgical Mask,Personal Care,120,720.0
+10611,2026-09-03,1003,33,Female,Coimbatore,P005,7,15,Debit Card,66,Completed,Vitamin D Tablets,Supplements,450,2677.5
+10612,2026-09-04,1136,55,Female,Trichy,P008,8,0,Debit Card,109,Cancelled,Surgical Mask,Personal Care,120,960.0
+10613,2026-09-05,1024,30,Female,Madurai,P010,4,10,COD,79,Completed,First Aid Kit,First Aid,750,2700.0
+10614,2026-09-06,1015,40,Female,Salem,P004,6,10,COD,50,Completed,Digital Thermometer,Diagnostics,350,1890.0
+10615,2026-09-07,1171,71,Female,Coimbatore,P010,1,0,Credit Card,191,Returned,First Aid Kit,First Aid,750,750.0
+10616,2026-09-08,1159,39,Male,Salem,P008,8,0,Debit Card,183,Completed,Surgical Mask,Personal Care,120,960.0
+10617,2026-09-09,1045,33,Female,Chennai,P010,4,15,COD,69,Completed,First Aid Kit,First Aid,750,2550.0
+10618,2026-09-10,1194,45,Male,Coimbatore,P002,4,0,UPI,117,Cancelled,Glucose Test Strips,Diabetes Care,650,2600.0
+10619,2026-09-11,1008,65,Male,Coimbatore,P005,4,15,Debit Card,197,Completed,Vitamin D Tablets,Supplements,450,1530.0
+10620,2026-09-12,1071,52,Female,Madurai,P009,7,15,UPI,66,Completed,Pain Relief Gel,Pain Relief,250,1487.5
+10621,2026-09-13,1108,62,Female,Trichy,P004,4,0,Credit Card,40,Cancelled,Digital Thermometer,Diagnostics,350,1400.0
+10622,2026-09-14,1115,63,Female,Salem,P006,7,5,Debit Card,93,Completed,Calcium Tablets,Supplements,300,1995.0
+10623,2026-09-15,1103,25,Female,Coimbatore,P001,3,5,Credit Card,161,Completed,Glucometer,Diabetes Care,1200,3420.0
+10624,2026-09-16,1125,61,Female,Coimbatore,P009,4,15,Credit Card,45,Completed,Pain Relief Gel,Pain Relief,250,850.0
+10625,2026-09-17,1057,72,Female,Madurai,P001,2,0,Credit Card,167,Completed,Glucometer,Diabetes Care,1200,2400.0
+10626,2026-09-18,1030,72,Female,Madurai,P005,6,5,Credit Card,161,Completed,Vitamin D Tablets,Supplements,450,2565.0
+10627,2026-09-19,1146,39,Male,Trichy,P004,5,0,Credit Card,117,Completed,Digital Thermometer,Diagnostics,350,1750.0
+10628,2026-09-20,1114,38,Female,Salem,P003,1,0,Debit Card,115,Returned,Blood Pressure Monitor,Diagnostics,1800,1800.0
+10629,2026-09-21,1197,43,Female,Chennai,P006,5,0,UPI,167,Cancelled,Calcium Tablets,Supplements,300,1500.0
+10630,2026-09-22,1117,57,Male,Trichy,P002,9,20,Debit Card,95,Cancelled,Glucose Test Strips,Diabetes Care,650,4680.0
+10631,2026-09-23,1167,38,Female,Chennai,P003,3,0,Debit Card,144,Completed,Blood Pressure Monitor,Diagnostics,1800,5400.0
+10632,2026-09-24,1060,42,Female,Tiruppur,P005,8,20,Debit Card,172,Completed,Vitamin D Tablets,Supplements,450,2880.0
+10633,2026-09-25,1098,58,Male,Coimbatore,P009,5,15,COD,192,Cancelled,Pain Relief Gel,Pain Relief,250,1062.5
+10634,2026-09-26,1171,18,Female,Salem,P002,5,5,COD,23,Cancelled,Glucose Test Strips,Diabetes Care,650,3087.5
+10635,2026-09-27,1126,23,Female,Trichy,P010,3,5,Debit Card,129,Completed,First Aid Kit,First Aid,750,2137.5
+10636,2026-09-28,1173,40,Female,Coimbatore,P008,9,5,UPI,147,Completed,Surgical Mask,Personal Care,120,1026.0
+10637,2026-09-29,1151,68,Female,Salem,P002,5,5,Debit Card,89,Completed,Glucose Test Strips,Diabetes Care,650,3087.5
+10638,2026-09-30,1197,40,Female,Salem,P005,3,5,Credit Card,153,Completed,Vitamin D Tablets,Supplements,450,1282.5
+10639,2026-10-01,1094,60,Female,Salem,P007,9,5,COD,191,Completed,Hand Sanitizer,Personal Care,180,1539.0
+10640,2026-10-02,1134,60,Male,Coimbatore,P008,9,5,COD,115,Completed,Surgical Mask,Personal Care,120,1026.0
+10641,2026-10-03,1184,40,Female,Trichy,P001,6,15,Debit Card,79,Completed,Glucometer,Diabetes Care,1200,6120.0
+10642,2026-10-04,1122,49,Female,Madurai,P006,5,0,Debit Card,53,Completed,Calcium Tablets,Supplements,300,1500.0
+10643,2026-10-05,1108,47,Male,Coimbatore,P001,5,10,UPI,82,Completed,Glucometer,Diabetes Care,1200,5400.0
+10644,2026-10-06,1004,30,Male,Salem,P002,8,20,UPI,54,Completed,Glucose Test Strips,Diabetes Care,650,4160.0
+10645,2026-10-07,1093,60,Female,Trichy,P001,6,10,Credit Card,193,Completed,Glucometer,Diabetes Care,1200,6480.0
+10646,2026-10-08,1151,35,Male,Tiruppur,P005,7,10,Debit Card,116,Completed,Vitamin D Tablets,Supplements,450,2835.0
+10647,2026-10-09,1006,40,Female,Chennai,P010,2,0,Debit Card,93,Completed,First Aid Kit,First Aid,750,1500.0
+10648,2026-10-10,1032,32,Female,Salem,P009,4,0,Debit Card,91,Completed,Pain Relief Gel,Pain Relief,250,1000.0
+10649,2026-10-11,1106,50,Male,Tiruppur,P006,4,0,COD,116,Completed,Calcium Tablets,Supplements,300,1200.0
+10650,2026-10-12,1146,38,Female,Madurai,P001,4,5,Credit Card,194,Completed,Glucometer,Diabetes Care,1200,4560.0
+10651,2026-10-13,1015,74,Female,Salem,P001,6,15,UPI,30,Completed,Glucometer,Diabetes Care,1200,6120.0
+10652,2026-10-14,1168,56,Male,Tiruppur,P002,6,5,COD,187,Cancelled,Glucose Test Strips,Diabetes Care,650,3705.0
+10653,2026-10-15,1122,40,Male,Salem,P009,6,15,COD,170,Completed,Pain Relief Gel,Pain Relief,250,1275.0
+10654,2026-10-16,1096,44,Male,Coimbatore,P003,4,15,COD,16,Completed,Blood Pressure Monitor,Diagnostics,1800,6120.0
+10655,2026-10-17,1006,62,Male,Trichy,P001,5,10,COD,79,Completed,Glucometer,Diabetes Care,1200,5400.0
+10656,2026-10-18,1112,61,Female,Tiruppur,P005,6,10,Credit Card,136,Cancelled,Vitamin D Tablets,Supplements,450,2430.0
+10657,2026-10-19,1120,35,Male,Trichy,P007,9,15,Debit Card,152,Completed,Hand Sanitizer,Personal Care,180,1377.0
+10658,2026-10-20,1123,41,Male,Coimbatore,P006,8,15,UPI,169,Completed,Calcium Tablets,Supplements,300,2040.0
+10659,2026-10-21,1191,68,Male,Coimbatore,P001,4,5,UPI,157,Completed,Glucometer,Diabetes Care,1200,4560.0
+10660,2026-10-22,1067,64,Male,Trichy,P005,5,5,COD,152,Completed,Vitamin D Tablets,Supplements,450,2137.5
+10661,2026-10-23,1106,57,Male,Tiruppur,P005,8,10,COD,185,Cancelled,Vitamin D Tablets,Supplements,450,3240.0
+10662,2026-10-24,1139,68,Female,Trichy,P006,8,0,Credit Card,158,Completed,Calcium Tablets,Supplements,300,2400.0
+10663,2026-10-25,1043,59,Male,Trichy,P003,3,15,COD,179,Completed,Blood Pressure Monitor,Diagnostics,1800,4590.0
+10664,2026-10-26,1145,24,Female,Chennai,P005,7,5,UPI,163,Completed,Vitamin D Tablets,Supplements,450,2992.5
+10665,2026-10-27,1096,67,Male,Tiruppur,P007,9,10,UPI,129,Completed,Hand Sanitizer,Personal Care,180,1458.0
+10666,2026-10-28,1132,65,Male,Chennai,P005,4,5,Debit Card,137,Completed,Vitamin D Tablets,Supplements,450,1710.0
+10667,2026-10-29,1191,37,Male,Salem,P005,8,15,Debit Card,151,Completed,Vitamin D Tablets,Supplements,450,3060.0
+10668,2026-10-30,1196,44,Male,Trichy,P005,9,15,UPI,66,Completed,Vitamin D Tablets,Supplements,450,3442.5
+10669,2026-10-31,1081,23,Male,Salem,P010,5,20,UPI,174,Completed,First Aid Kit,First Aid,750,3000.0
+10670,2026-11-01,1041,44,Male,Tiruppur,P010,3,0,Credit Card,67,Completed,First Aid Kit,First Aid,750,2250.0
+10671,2026-11-02,1133,26,Male,Trichy,P003,7,20,Credit Card,30,Completed,Blood Pressure Monitor,Diagnostics,1800,10080.0
+10672,2026-11-03,1160,70,Male,Salem,P001,6,10,UPI,91,Completed,Glucometer,Diabetes Care,1200,6480.0
+10673,2026-11-04,1198,62,Female,Madurai,P005,6,5,COD,78,Completed,Vitamin D Tablets,Supplements,450,2565.0
+10674,2026-11-05,1035,74,Male,Coimbatore,P009,7,10,Debit Card,140,Completed,Pain Relief Gel,Pain Relief,250,1575.0
+10675,2026-11-06,1022,48,Female,Trichy,P001,6,15,UPI,96,Completed,Glucometer,Diabetes Care,1200,6120.0
+10676,2026-11-07,1193,38,Male,Coimbatore,P003,4,20,COD,174,Completed,Blood Pressure Monitor,Diagnostics,1800,5760.0
+10677,2026-11-08,1150,43,Female,Chennai,P004,9,20,UPI,58,Completed,Digital Thermometer,Diagnostics,350,2520.0
+10678,2026-11-09,1112,57,Male,Salem,P001,8,20,Debit Card,156,Completed,Glucometer,Diabetes Care,1200,7680.0
+10679,2026-11-10,1011,65,Male,Chennai,P001,5,10,Debit Card,124,Completed,Glucometer,Diabetes Care,1200,5400.0
+10680,2026-11-11,1003,62,Male,Trichy,P008,9,15,Credit Card,98,Completed,Surgical Mask,Personal Care,120,918.0
+10681,2026-11-12,1137,30,Female,Coimbatore,P002,6,5,Credit Card,94,Completed,Glucose Test Strips,Diabetes Care,650,3705.0
+10682,2026-11-13,1060,66,Female,Coimbatore,P008,9,5,Credit Card,137,Completed,Surgical Mask,Personal Care,120,1026.0
+10683,2026-11-14,1076,40,Female,Salem,P007,9,10,Credit Card,149,Cancelled,Hand Sanitizer,Personal Care,180,1458.0
+10684,2026-11-15,1087,37,Female,Trichy,P010,6,20,Debit Card,198,Completed,First Aid Kit,First Aid,750,3600.0
+10685,2026-11-16,1014,54,Male,Madurai,P010,5,0,COD,178,Cancelled,First Aid Kit,First Aid,750,3750.0
+10686,2026-11-17,1018,71,Male,Madurai,P002,8,10,COD,170,Completed,Glucose Test Strips,Diabetes Care,650,4680.0
+10687,2026-11-18,1113,70,Male,Salem,P006,8,10,COD,187,Completed,Calcium Tablets,Supplements,300,2160.0
+10688,2026-11-19,1073,45,Female,Trichy,P006,7,15,UPI,126,Completed,Calcium Tablets,Supplements,300,1785.0
+10689,2026-11-20,1023,34,Male,Salem,P003,4,5,Credit Card,136,Cancelled,Blood Pressure Monitor,Diagnostics,1800,6840.0
+10690,2026-11-21,1083,45,Female,Trichy,P002,8,10,Credit Card,80,Completed,Glucose Test Strips,Diabetes Care,650,4680.0
+10691,2026-11-22,1125,58,Female,Chennai,P001,5,10,Debit Card,95,Completed,Glucometer,Diabetes Care,1200,5400.0
+10692,2026-11-23,1175,19,Female,Salem,P006,8,20,Debit Card,42,Completed,Calcium Tablets,Supplements,300,1920.0
+10693,2026-11-24,1069,42,Female,Trichy,P005,7,20,UPI,90,Completed,Vitamin D Tablets,Supplements,450,2520.0
+10694,2026-11-25,1047,67,Female,Madurai,P009,6,0,UPI,161,Completed,Pain Relief Gel,Pain Relief,250,1500.0
+10695,2026-11-26,1116,58,Male,Trichy,P001,5,15,COD,70,Completed,Glucometer,Diabetes Care,1200,5100.0
+10696,2026-11-27,1030,23,Female,Trichy,P007,6,0,Debit Card,70,Completed,Hand Sanitizer,Personal Care,180,1080.0
+10697,2026-11-28,1025,28,Female,Salem,P005,9,20,Credit Card,107,Completed,Vitamin D Tablets,Supplements,450,3240.0
+10698,2026-11-29,1156,74,Male,Chennai,P005,7,5,COD,37,Completed,Vitamin D Tablets,Supplements,450,2992.5
+10699,2026-11-30,1112,55,Female,Chennai,P002,8,20,Credit Card,195,Completed,Glucose Test Strips,Diabetes Care,650,4160.0
+10700,2026-12-01,1025,23,Female,Chennai,P003,6,15,COD,52,Completed,Blood Pressure Monitor,Diagnostics,1800,9180.0
+10701,2026-12-02,1074,62,Male,Chennai,P007,9,20,Credit Card,178,Cancelled,Hand Sanitizer,Personal Care,180,1296.0
+10702,2026-12-03,1058,28,Male,Tiruppur,P006,8,15,UPI,176,Cancelled,Calcium Tablets,Supplements,300,2040.0
+10703,2026-12-04,1094,31,Male,Salem,P002,9,15,COD,95,Returned,Glucose Test Strips,Diabetes Care,650,4972.5
+10704,2026-12-05,1119,19,Female,Coimbatore,P006,8,15,Credit Card,186,Completed,Calcium Tablets,Supplements,300,2040.0
+10705,2026-12-06,1127,57,Male,Salem,P002,8,15,Credit Card,26,Cancelled,Glucose Test Strips,Diabetes Care,650,4420.0
+10706,2026-12-07,1169,20,Male,Tiruppur,P002,8,15,Debit Card,107,Completed,Glucose Test Strips,Diabetes Care,650,4420.0
+10707,2026-12-08,1025,72,Male,Chennai,P002,7,5,COD,107,Completed,Glucose Test Strips,Diabetes Care,650,4322.5
+10708,2026-12-09,1078,70,Female,Tiruppur,P003,2,0,Credit Card,74,Completed,Blood Pressure Monitor,Diagnostics,1800,3600.0
+10709,2026-12-10,1099,52,Male,Madurai,P002,8,10,Debit Card,83,Completed,Glucose Test Strips,Diabetes Care,650,4680.0
+10710,2026-12-11,1116,50,Female,Madurai,P004,5,0,Credit Card,94,Cancelled,Digital Thermometer,Diagnostics,350,1750.0
+10711,2026-12-12,1048,41,Female,Salem,P009,8,15,COD,14,Completed,Pain Relief Gel,Pain Relief,250,1700.0
+10712,2026-12-13,1010,36,Male,Salem,P006,8,5,UPI,11,Completed,Calcium Tablets,Supplements,300,2280.0
+10713,2026-12-14,1099,35,Female,Coimbatore,P001,6,20,COD,31,Completed,Glucometer,Diabetes Care,1200,5760.0
+10714,2026-12-15,1011,66,Female,Coimbatore,P008,9,5,COD,121,Completed,Surgical Mask,Personal Care,120,1026.0
+10715,2026-12-16,1085,69,Male,Madurai,P007,9,15,Credit Card,66,Completed,Hand Sanitizer,Personal Care,180,1377.0
+10716,2026-12-17,1149,41,Female,Chennai,P010,5,5,Credit Card,75,Completed,First Aid Kit,First Aid,750,3562.5
+10717,2026-12-18,1173,62,Male,Tiruppur,P003,4,5,COD,83,Completed,Blood Pressure Monitor,Diagnostics,1800,6840.0
+10718,2026-12-19,1135,52,Female,Coimbatore,P001,7,15,Debit Card,107,Completed,Glucometer,Diabetes Care,1200,7140.0
+10719,2026-12-20,1192,18,Female,Trichy,P005,6,5,Debit Card,153,Completed,Vitamin D Tablets,Supplements,450,2565.0
+10720,2026-12-21,1126,53,Male,Coimbatore,P004,6,10,Debit Card,121,Completed,Digital Thermometer,Diagnostics,350,1890.0
+10721,2026-12-22,1064,42,Male,Chennai,P010,6,10,Credit Card,188,Completed,First Aid Kit,First Aid,750,4050.0
+10722,2026-12-23,1002,62,Female,Chennai,P008,9,5,Credit Card,134,Cancelled,Surgical Mask,Personal Care,120,1026.0
+10723,2026-12-24,1076,66,Female,Salem,P001,5,20,COD,176,Completed,Glucometer,Diabetes Care,1200,4800.0
+10724,2026-12-25,1121,60,Male,Tiruppur,P010,6,15,UPI,95,Completed,First Aid Kit,First Aid,750,3825.0
+10725,2026-12-26,1042,51,Female,Chennai,P001,6,10,Credit Card,85,Completed,Glucometer,Diabetes Care,1200,6480.0
+10726,2026-12-27,1054,42,Female,Coimbatore,P004,8,20,COD,97,Completed,Digital Thermometer,Diagnostics,350,2240.0
+10727,2026-12-28,1075,33,Female,Coimbatore,P008,9,5,COD,177,Completed,Surgical Mask,Personal Care,120,1026.0
+10728,2026-12-29,1016,51,Female,Madurai,P005,9,20,UPI,47,Completed,Vitamin D Tablets,Supplements,450,3240.0
+10729,2026-12-30,1018,46,Male,Chennai,P002,6,0,Debit Card,197,Completed,Glucose Test Strips,Diabetes Care,650,3900.0
+10730,2026-12-31,1187,36,Male,Trichy,P006,6,10,COD,68,Completed,Calcium Tablets,Supplements,300,1620.0
+10731,2027-01-01,1090,40,Male,Salem,P005,5,5,COD,147,Completed,Vitamin D Tablets,Supplements,450,2137.5
+10732,2027-01-02,1144,36,Male,Tiruppur,P002,9,15,COD,108,Completed,Glucose Test Strips,Diabetes Care,650,4972.5
+10733,2027-01-03,1006,42,Male,Trichy,P003,2,5,Debit Card,72,Completed,Blood Pressure Monitor,Diagnostics,1800,3420.0
+10734,2027-01-04,1185,33,Male,Salem,P009,8,15,Debit Card,58,Completed,Pain Relief Gel,Pain Relief,250,1700.0
+10735,2027-01-05,1108,71,Female,Coimbatore,P007,6,5,UPI,41,Cancelled,Hand Sanitizer,Personal Care,180,1026.0
+10736,2027-01-06,1175,68,Male,Trichy,P007,9,20,Credit Card,144,Completed,Hand Sanitizer,Personal Care,180,1296.0
+10737,2027-01-07,1048,26,Female,Salem,P006,7,20,Debit Card,30,Completed,Calcium Tablets,Supplements,300,1680.0
+10738,2027-01-08,1042,18,Female,Coimbatore,P008,9,20,Credit Card,29,Completed,Surgical Mask,Personal Care,120,864.0
+10739,2027-01-09,1076,59,Female,Coimbatore,P004,7,0,Credit Card,163,Returned,Digital Thermometer,Diagnostics,350,2450.0
+10740,2027-01-10,1188,36,Male,Coimbatore,P008,9,15,Debit Card,136,Completed,Surgical Mask,Personal Care,120,918.0
+10741,2027-01-11,1077,50,Female,Coimbatore,P004,7,20,COD,77,Completed,Digital Thermometer,Diagnostics,350,1960.0
+10742,2027-01-12,1132,51,Male,Coimbatore,P008,9,0,UPI,119,Completed,Surgical Mask,Personal Care,120,1080.0
+10743,2027-01-13,1130,33,Female,Madurai,P009,5,15,Credit Card,125,Cancelled,Pain Relief Gel,Pain Relief,250,1062.5
+10744,2027-01-14,1059,61,Female,Trichy,P003,3,5,COD,152,Cancelled,Blood Pressure Monitor,Diagnostics,1800,5130.0
+10745,2027-01-15,1155,57,Male,Salem,P003,2,0,Debit Card,129,Completed,Blood Pressure Monitor,Diagnostics,1800,3600.0
+10746,2027-01-16,1027,72,Female,Madurai,P002,5,10,Credit Card,88,Completed,Glucose Test Strips,Diabetes Care,650,2925.0
+10747,2027-01-17,1079,35,Female,Madurai,P010,3,0,Credit Card,125,Completed,First Aid Kit,First Aid,750,2250.0
+10748,2027-01-18,1072,51,Female,Chennai,P003,1,0,Credit Card,101,Completed,Blood Pressure Monitor,Diagnostics,1800,1800.0
+10749,2027-01-19,1007,42,Female,Chennai,P003,3,15,COD,23,Completed,Blood Pressure Monitor,Diagnostics,1800,4590.0
+10750,2027-01-20,1191,62,Male,Chennai,P005,6,5,COD,164,Completed,Vitamin D Tablets,Supplements,450,2565.0
+10751,2027-01-21,1111,23,Female,Tiruppur,P005,4,10,COD,134,Completed,Vitamin D Tablets,Supplements,450,1620.0
+10752,2027-01-22,1119,38,Female,Chennai,P002,9,20,Credit Card,177,Completed,Glucose Test Strips,Diabetes Care,650,4680.0
+10753,2027-01-23,1174,23,Male,Salem,P010,5,20,Credit Card,67,Completed,First Aid Kit,First Aid,750,3000.0
+10754,2027-01-24,1063,49,Female,Madurai,P006,5,0,UPI,37,Completed,Calcium Tablets,Supplements,300,1500.0
+10755,2027-01-25,1124,58,Female,Salem,P005,7,15,UPI,35,Completed,Vitamin D Tablets,Supplements,450,2677.5
+10756,2027-01-26,1012,65,Female,Trichy,P006,7,15,COD,122,Returned,Calcium Tablets,Supplements,300,1785.0
+10757,2027-01-27,1141,60,Female,Chennai,P001,6,20,COD,75,Completed,Glucometer,Diabetes Care,1200,5760.0
+10758,2027-01-28,1043,56,Male,Tiruppur,P005,6,10,Debit Card,162,Completed,Vitamin D Tablets,Supplements,450,2430.0
+10759,2027-01-29,1017,48,Female,Trichy,P009,4,5,COD,140,Completed,Pain Relief Gel,Pain Relief,250,950.0
+10760,2027-01-30,1063,59,Male,Tiruppur,P010,3,10,UPI,53,Completed,First Aid Kit,First Aid,750,2025.0
+10761,2027-01-31,1120,27,Female,Trichy,P002,5,5,UPI,106,Completed,Glucose Test Strips,Diabetes Care,650,3087.5
+10762,2027-02-01,1036,47,Female,Madurai,P001,4,20,UPI,51,Completed,Glucometer,Diabetes Care,1200,3840.0
+10763,2027-02-02,1008,74,Female,Salem,P010,7,5,Credit Card,15,Completed,First Aid Kit,First Aid,750,4987.5
+10764,2027-02-03,1069,69,Male,Coimbatore,P009,7,15,Credit Card,176,Completed,Pain Relief Gel,Pain Relief,250,1487.5
+10765,2027-02-04,1090,35,Female,Salem,P010,1,0,COD,189,Completed,First Aid Kit,First Aid,750,750.0
+10766,2027-02-05,1036,41,Female,Chennai,P009,2,0,Debit Card,32,Returned,Pain Relief Gel,Pain Relief,250,500.0
+10767,2027-02-06,1028,69,Male,Coimbatore,P009,7,20,Debit Card,98,Completed,Pain Relief Gel,Pain Relief,250,1400.0
+10768,2027-02-07,1118,26,Male,Tiruppur,P006,7,15,Debit Card,132,Returned,Calcium Tablets,Supplements,300,1785.0
+10769,2027-02-08,1093,48,Male,Madurai,P008,9,10,Credit Card,187,Returned,Surgical Mask,Personal Care,120,972.0
+10770,2027-02-09,1175,32,Male,Madurai,P001,4,15,UPI,180,Completed,Glucometer,Diabetes Care,1200,4080.0
+10771,2027-02-10,1076,21,Female,Tiruppur,P010,3,0,UPI,156,Completed,First Aid Kit,First Aid,750,2250.0
+10772,2027-02-11,1101,57,Female,Chennai,P004,5,0,Credit Card,60,Completed,Digital Thermometer,Diagnostics,350,1750.0
+10773,2027-02-12,1158,26,Female,Tiruppur,P001,5,15,Debit Card,20,Completed,Glucometer,Diabetes Care,1200,5100.0
+10774,2027-02-13,1151,62,Female,Trichy,P008,7,15,Debit Card,21,Completed,Surgical Mask,Personal Care,120,714.0
+10775,2027-02-14,1144,26,Male,Chennai,P001,3,0,COD,83,Returned,Glucometer,Diabetes Care,1200,3600.0
+10776,2027-02-15,1014,43,Female,Coimbatore,P003,2,10,COD,17,Completed,Blood Pressure Monitor,Diagnostics,1800,3240.0
+10777,2027-02-16,1071,21,Female,Tiruppur,P004,8,20,Debit Card,161,Completed,Digital Thermometer,Diagnostics,350,2240.0
+10778,2027-02-17,1180,34,Female,Chennai,P008,9,20,Credit Card,50,Completed,Surgical Mask,Personal Care,120,864.0
+10779,2027-02-18,1124,33,Female,Coimbatore,P006,7,15,Debit Card,173,Completed,Calcium Tablets,Supplements,300,1785.0
+10780,2027-02-19,1125,32,Male,Tiruppur,P010,5,20,COD,94,Completed,First Aid Kit,First Aid,750,3000.0
+10781,2027-02-20,1037,52,Female,Madurai,P007,8,0,Debit Card,81,Completed,Hand Sanitizer,Personal Care,180,1440.0
+10782,2027-02-21,1029,74,Female,Tiruppur,P008,9,0,Credit Card,64,Completed,Surgical Mask,Personal Care,120,1080.0
+10783,2027-02-22,1195,69,Female,Salem,P002,8,15,UPI,146,Completed,Glucose Test Strips,Diabetes Care,650,4420.0
+10784,2027-02-23,1143,22,Male,Tiruppur,P010,6,15,Credit Card,56,Completed,First Aid Kit,First Aid,750,3825.0
+10785,2027-02-24,1175,72,Male,Salem,P008,9,15,Credit Card,152,Completed,Surgical Mask,Personal Care,120,918.0
+10786,2027-02-25,1174,22,Female,Coimbatore,P003,2,10,COD,185,Completed,Blood Pressure Monitor,Diagnostics,1800,3240.0
+10787,2027-02-26,1180,37,Female,Tiruppur,P007,9,20,Credit Card,113,Completed,Hand Sanitizer,Personal Care,180,1296.0
+10788,2027-02-27,1019,32,Female,Coimbatore,P003,3,15,Credit Card,51,Completed,Blood Pressure Monitor,Diagnostics,1800,4590.0
+10789,2027-02-28,1106,35,Male,Coimbatore,P007,8,5,COD,69,Completed,Hand Sanitizer,Personal Care,180,1368.0
+10790,2027-03-01,1021,64,Female,Chennai,P002,5,5,COD,21,Completed,Glucose Test Strips,Diabetes Care,650,3087.5
+10791,2027-03-02,1064,19,Female,Coimbatore,P010,2,0,UPI,139,Completed,First Aid Kit,First Aid,750,1500.0
+10792,2027-03-03,1165,46,Female,Coimbatore,P006,7,20,Debit Card,16,Completed,Calcium Tablets,Supplements,300,1680.0
+10793,2027-03-04,1027,30,Male,Tiruppur,P003,5,15,Credit Card,89,Completed,Blood Pressure Monitor,Diagnostics,1800,7650.0
+10794,2027-03-05,1055,21,Female,Tiruppur,P003,4,5,COD,140,Completed,Blood Pressure Monitor,Diagnostics,1800,6840.0
+10795,2027-03-06,1029,59,Female,Madurai,P009,5,20,UPI,118,Completed,Pain Relief Gel,Pain Relief,250,1000.0
+10796,2027-03-07,1148,62,Male,Chennai,P007,7,0,Debit Card,12,Completed,Hand Sanitizer,Personal Care,180,1260.0
+10797,2027-03-08,1025,27,Male,Coimbatore,P005,4,10,COD,36,Cancelled,Vitamin D Tablets,Supplements,450,1620.0
+10798,2027-03-09,1070,48,Female,Chennai,P010,4,20,Debit Card,123,Completed,First Aid Kit,First Aid,750,2400.0
+10799,2027-03-10,1063,58,Male,Salem,P007,9,20,Debit Card,116,Completed,Hand Sanitizer,Personal Care,180,1296.0
+10800,2027-03-11,1164,25,Female,Coimbatore,P009,5,10,Credit Card,49,Completed,Pain Relief Gel,Pain Relief,250,1125.0
+10801,2027-03-12,1130,20,Male,Chennai,P001,8,20,Credit Card,170,Completed,Glucometer,Diabetes Care,1200,7680.0
+10802,2027-03-13,1150,65,Male,Madurai,P007,8,0,COD,138,Cancelled,Hand Sanitizer,Personal Care,180,1440.0
+10803,2027-03-14,1016,63,Female,Madurai,P006,3,0,Debit Card,17,Completed,Calcium Tablets,Supplements,300,900.0
+10804,2027-03-15,1146,26,Female,Coimbatore,P010,4,10,COD,110,Returned,First Aid Kit,First Aid,750,2700.0
+10805,2027-03-16,1197,47,Female,Salem,P009,7,15,COD,169,Completed,Pain Relief Gel,Pain Relief,250,1487.5
+10806,2027-03-17,1182,70,Male,Madurai,P001,6,5,Debit Card,133,Completed,Glucometer,Diabetes Care,1200,6840.0
+10807,2027-03-18,1100,28,Female,Madurai,P004,5,15,COD,185,Completed,Digital Thermometer,Diagnostics,350,1487.5
+10808,2027-03-19,1030,52,Female,Salem,P009,4,20,Debit Card,116,Completed,Pain Relief Gel,Pain Relief,250,800.0
+10809,2027-03-20,1045,54,Female,Chennai,P004,8,5,Debit Card,110,Completed,Digital Thermometer,Diagnostics,350,2660.0
+10810,2027-03-21,1019,59,Female,Madurai,P010,5,10,Debit Card,13,Completed,First Aid Kit,First Aid,750,3375.0
+10811,2027-03-22,1034,30,Female,Tiruppur,P003,2,10,Debit Card,119,Completed,Blood Pressure Monitor,Diagnostics,1800,3240.0
+10812,2027-03-23,1141,53,Male,Trichy,P009,5,5,UPI,28,Completed,Pain Relief Gel,Pain Relief,250,1187.5
+10813,2027-03-24,1171,73,Female,Trichy,P002,3,0,Debit Card,41,Cancelled,Glucose Test Strips,Diabetes Care,650,1950.0
+10814,2027-03-25,1062,30,Female,Madurai,P004,6,5,Credit Card,146,Completed,Digital Thermometer,Diagnostics,350,1995.0
+10815,2027-03-26,1118,29,Male,Chennai,P006,8,20,Credit Card,21,Completed,Calcium Tablets,Supplements,300,1920.0
+10816,2027-03-27,1100,54,Female,Chennai,P002,7,0,Credit Card,148,Completed,Glucose Test Strips,Diabetes Care,650,4550.0
+10817,2027-03-28,1022,27,Female,Coimbatore,P008,8,10,Debit Card,55,Completed,Surgical Mask,Personal Care,120,864.0
+10818,2027-03-29,1180,73,Female,Tiruppur,P008,9,5,Credit Card,128,Completed,Surgical Mask,Personal Care,120,1026.0
+10819,2027-03-30,1180,26,Female,Chennai,P001,4,15,UPI,25,Completed,Glucometer,Diabetes Care,1200,4080.0
+10820,2027-03-31,1111,69,Female,Salem,P003,4,15,COD,138,Completed,Blood Pressure Monitor,Diagnostics,1800,6120.0
+10821,2027-04-01,1164,24,Male,Tiruppur,P010,4,20,Debit Card,72,Completed,First Aid Kit,First Aid,750,2400.0
+10822,2027-04-02,1073,19,Male,Trichy,P009,5,15,Credit Card,118,Completed,Pain Relief Gel,Pain Relief,250,1062.5
+10823,2027-04-03,1147,71,Male,Tiruppur,P005,3,5,UPI,128,Completed,Vitamin D Tablets,Supplements,450,1282.5
+10824,2027-04-04,1038,73,Female,Salem,P006,6,5,COD,30,Completed,Calcium Tablets,Supplements,300,1710.0
+10825,2027-04-05,1070,40,Male,Madurai,P004,8,15,UPI,167,Completed,Digital Thermometer,Diagnostics,350,2380.0
+10826,2027-04-06,1116,56,Female,Salem,P010,3,5,Credit Card,22,Completed,First Aid Kit,First Aid,750,2137.5
+10827,2027-04-07,1079,57,Female,Salem,P002,8,20,UPI,171,Completed,Glucose Test Strips,Diabetes Care,650,4160.0
+10828,2027-04-08,1185,56,Female,Madurai,P008,6,0,COD,13,Cancelled,Surgical Mask,Personal Care,120,720.0
+10829,2027-04-09,1148,38,Male,Madurai,P006,7,20,Credit Card,165,Completed,Calcium Tablets,Supplements,300,1680.0
+10830,2027-04-10,1009,40,Male,Madurai,P005,6,20,COD,111,Completed,Vitamin D Tablets,Supplements,450,2160.0
+10831,2027-04-11,1032,46,Male,Madurai,P009,8,5,UPI,68,Completed,Pain Relief Gel,Pain Relief,250,1900.0
+10832,2027-04-12,1132,31,Female,Madurai,P001,2,0,Debit Card,137,Completed,Glucometer,Diabetes Care,1200,2400.0
+10833,2027-04-13,1050,43,Male,Salem,P005,6,5,Debit Card,36,Completed,Vitamin D Tablets,Supplements,450,2565.0
+10834,2027-04-14,1082,68,Female,Coimbatore,P006,7,10,Debit Card,78,Completed,Calcium Tablets,Supplements,300,1890.0
+10835,2027-04-15,1005,22,Male,Coimbatore,P005,5,5,Debit Card,34,Completed,Vitamin D Tablets,Supplements,450,2137.5
+10836,2027-04-16,1148,72,Male,Chennai,P006,8,5,COD,140,Cancelled,Calcium Tablets,Supplements,300,2280.0
+10837,2027-04-17,1087,48,Female,Coimbatore,P006,6,5,Debit Card,106,Completed,Calcium Tablets,Supplements,300,1710.0
+10838,2027-04-18,1126,42,Female,Trichy,P007,7,0,COD,34,Completed,Hand Sanitizer,Personal Care,180,1260.0
+10839,2027-04-19,1075,48,Male,Coimbatore,P004,6,5,Credit Card,157,Completed,Digital Thermometer,Diagnostics,350,1995.0
+10840,2027-04-20,1165,67,Male,Salem,P008,9,0,Debit Card,171,Completed,Surgical Mask,Personal Care,120,1080.0
+10841,2027-04-21,1022,37,Male,Madurai,P007,9,15,COD,163,Completed,Hand Sanitizer,Personal Care,180,1377.0
+10842,2027-04-22,1186,61,Female,Madurai,P009,4,10,Debit Card,135,Returned,Pain Relief Gel,Pain Relief,250,900.0
+10843,2027-04-23,1068,72,Female,Salem,P007,5,0,Debit Card,142,Completed,Hand Sanitizer,Personal Care,180,900.0
+10844,2027-04-24,1044,34,Male,Trichy,P003,4,15,Debit Card,198,Completed,Blood Pressure Monitor,Diagnostics,1800,6120.0
+10845,2027-04-25,1034,62,Male,Coimbatore,P003,1,0,COD,18,Completed,Blood Pressure Monitor,Diagnostics,1800,1800.0
+10846,2027-04-26,1077,19,Female,Salem,P008,8,0,UPI,125,Completed,Surgical Mask,Personal Care,120,960.0
+10847,2027-04-27,1042,42,Male,Chennai,P005,7,10,Debit Card,187,Returned,Vitamin D Tablets,Supplements,450,2835.0
+10848,2027-04-28,1137,30,Female,Madurai,P004,7,20,Debit Card,143,Completed,Digital Thermometer,Diagnostics,350,1960.0
+10849,2027-04-29,1106,56,Female,Tiruppur,P008,9,20,Credit Card,69,Completed,Surgical Mask,Personal Care,120,864.0
+10850,2027-04-30,1095,45,Female,Chennai,P006,5,0,UPI,181,Completed,Calcium Tablets,Supplements,300,1500.0
+10851,2027-05-01,1135,59,Female,Trichy,P002,8,5,COD,130,Completed,Glucose Test Strips,Diabetes Care,650,4940.0
+10852,2027-05-02,1068,72,Female,Chennai,P004,4,15,Credit Card,148,Completed,Digital Thermometer,Diagnostics,350,1190.0
+10853,2027-05-03,1147,23,Female,Salem,P004,5,5,Debit Card,184,Completed,Digital Thermometer,Diagnostics,350,1662.5
+10854,2027-05-04,1159,20,Male,Coimbatore,P006,6,5,Credit Card,117,Completed,Calcium Tablets,Supplements,300,1710.0
+10855,2027-05-05,1128,52,Female,Madurai,P006,6,0,Credit Card,117,Completed,Calcium Tablets,Supplements,300,1800.0
+10856,2027-05-06,1163,35,Female,Trichy,P001,2,0,Debit Card,140,Cancelled,Glucometer,Diabetes Care,1200,2400.0
+10857,2027-05-07,1185,28,Male,Trichy,P008,6,0,UPI,85,Completed,Surgical Mask,Personal Care,120,720.0
+10858,2027-05-08,1085,71,Female,Tiruppur,P006,6,0,UPI,39,Completed,Calcium Tablets,Supplements,300,1800.0
+10859,2027-05-09,1189,37,Male,Chennai,P003,4,20,Credit Card,30,Completed,Blood Pressure Monitor,Diagnostics,1800,5760.0
+10860,2027-05-10,1159,22,Female,Tiruppur,P009,3,0,Debit Card,165,Completed,Pain Relief Gel,Pain Relief,250,750.0
+10861,2027-05-11,1083,36,Male,Coimbatore,P002,8,20,COD,199,Cancelled,Glucose Test Strips,Diabetes Care,650,4160.0
+10862,2027-05-12,1095,39,Male,Coimbatore,P008,9,20,Credit Card,170,Completed,Surgical Mask,Personal Care,120,864.0
+10863,2027-05-13,1181,36,Female,Tiruppur,P010,2,0,COD,172,Completed,First Aid Kit,First Aid,750,1500.0
+10864,2027-05-14,1032,64,Female,Madurai,P003,1,10,Credit Card,189,Completed,Blood Pressure Monitor,Diagnostics,1800,1620.0
+10865,2027-05-15,1066,33,Female,Coimbatore,P005,7,15,Credit Card,43,Completed,Vitamin D Tablets,Supplements,450,2677.5
+10866,2027-05-16,1187,41,Female,Tiruppur,P006,7,5,Debit Card,50,Completed,Calcium Tablets,Supplements,300,1995.0
+10867,2027-05-17,1116,58,Male,Chennai,P010,6,20,Debit Card,60,Completed,First Aid Kit,First Aid,750,3600.0
+10868,2027-05-18,1138,21,Male,Tiruppur,P006,5,15,COD,184,Cancelled,Calcium Tablets,Supplements,300,1275.0
+10869,2027-05-19,1130,32,Male,Tiruppur,P004,6,10,COD,91,Completed,Digital Thermometer,Diagnostics,350,1890.0
+10870,2027-05-20,1194,42,Female,Salem,P003,3,5,UPI,67,Cancelled,Blood Pressure Monitor,Diagnostics,1800,5130.0
+10871,2027-05-21,1060,61,Male,Coimbatore,P004,6,5,Debit Card,84,Completed,Digital Thermometer,Diagnostics,350,1995.0
+10872,2027-05-22,1017,72,Female,Madurai,P001,6,20,Credit Card,194,Completed,Glucometer,Diabetes Care,1200,5760.0
+10873,2027-05-23,1096,52,Female,Madurai,P004,4,0,Credit Card,32,Completed,Digital Thermometer,Diagnostics,350,1400.0
+10874,2027-05-24,1144,72,Male,Salem,P001,4,10,UPI,185,Completed,Glucometer,Diabetes Care,1200,4320.0
+10875,2027-05-25,1016,31,Female,Trichy,P001,6,20,Debit Card,137,Completed,Glucometer,Diabetes Care,1200,5760.0
+10876,2027-05-26,1046,66,Male,Madurai,P010,6,10,Credit Card,159,Cancelled,First Aid Kit,First Aid,750,4050.0
+10877,2027-05-27,1167,36,Female,Tiruppur,P006,6,0,UPI,26,Cancelled,Calcium Tablets,Supplements,300,1800.0
+10878,2027-05-28,1159,55,Male,Salem,P005,5,0,UPI,78,Cancelled,Vitamin D Tablets,Supplements,450,2250.0
+10879,2027-05-29,1107,53,Female,Chennai,P004,8,20,Credit Card,117,Completed,Digital Thermometer,Diagnostics,350,2240.0
+10880,2027-05-30,1088,24,Male,Coimbatore,P003,4,0,Credit Card,148,Cancelled,Blood Pressure Monitor,Diagnostics,1800,7200.0
+10881,2027-05-31,1129,47,Male,Coimbatore,P001,5,15,COD,103,Completed,Glucometer,Diabetes Care,1200,5100.0
+10882,2027-06-01,1139,36,Female,Coimbatore,P006,5,5,Debit Card,24,Completed,Calcium Tablets,Supplements,300,1425.0
+10883,2027-06-02,1119,66,Female,Tiruppur,P002,9,20,COD,100,Completed,Glucose Test Strips,Diabetes Care,650,4680.0
+10884,2027-06-03,1085,42,Male,Chennai,P008,9,10,UPI,172,Completed,Surgical Mask,Personal Care,120,972.0
+10885,2027-06-04,1004,33,Female,Salem,P010,4,15,Credit Card,42,Completed,First Aid Kit,First Aid,750,2550.0
+10886,2027-06-05,1071,64,Female,Salem,P005,6,20,COD,134,Completed,Vitamin D Tablets,Supplements,450,2160.0
+10887,2027-06-06,1154,71,Female,Coimbatore,P007,7,0,UPI,25,Returned,Hand Sanitizer,Personal Care,180,1260.0
+10888,2027-06-07,1111,57,Male,Chennai,P010,4,0,Debit Card,171,Completed,First Aid Kit,First Aid,750,3000.0
+10889,2027-06-08,1050,68,Male,Chennai,P002,6,0,Credit Card,75,Completed,Glucose Test Strips,Diabetes Care,650,3900.0
+10890,2027-06-09,1140,25,Female,Chennai,P008,8,0,COD,177,Returned,Surgical Mask,Personal Care,120,960.0
+10891,2027-06-10,1095,35,Female,Madurai,P002,9,10,Debit Card,165,Completed,Glucose Test Strips,Diabetes Care,650,5265.0
+10892,2027-06-11,1092,45,Male,Madurai,P004,8,15,COD,56,Cancelled,Digital Thermometer,Diagnostics,350,2380.0
+10893,2027-06-12,1065,33,Female,Coimbatore,P001,4,5,UPI,176,Completed,Glucometer,Diabetes Care,1200,4560.0
+10894,2027-06-13,1047,69,Male,Chennai,P005,6,10,Debit Card,157,Completed,Vitamin D Tablets,Supplements,450,2430.0
+10895,2027-06-14,1181,36,Female,Trichy,P009,4,10,COD,133,Completed,Pain Relief Gel,Pain Relief,250,900.0
+10896,2027-06-15,1106,59,Female,Chennai,P001,4,5,Debit Card,10,Completed,Glucometer,Diabetes Care,1200,4560.0
+10897,2027-06-16,1199,34,Female,Salem,P009,7,5,UPI,96,Completed,Pain Relief Gel,Pain Relief,250,1662.5
+10898,2027-06-17,1130,62,Male,Salem,P008,8,0,Debit Card,137,Completed,Surgical Mask,Personal Care,120,960.0
+10899,2027-06-18,1106,30,Male,Coimbatore,P006,5,10,COD,76,Completed,Calcium Tablets,Supplements,300,1350.0
+10900,2027-06-19,1024,24,Male,Trichy,P007,9,20,UPI,13,Cancelled,Hand Sanitizer,Personal Care,180,1296.0
+10901,2027-06-20,1004,44,Male,Chennai,P003,1,5,Credit Card,195,Completed,Blood Pressure Monitor,Diagnostics,1800,1710.0
+10902,2027-06-21,1108,27,Female,Trichy,P001,3,5,COD,162,Completed,Glucometer,Diabetes Care,1200,3420.0
+10903,2027-06-22,1019,51,Female,Coimbatore,P005,5,15,COD,56,Completed,Vitamin D Tablets,Supplements,450,1912.5
+10904,2027-06-23,1154,53,Male,Salem,P002,7,20,UPI,47,Completed,Glucose Test Strips,Diabetes Care,650,3640.0
+10905,2027-06-24,1040,42,Female,Salem,P005,6,20,UPI,152,Completed,Vitamin D Tablets,Supplements,450,2160.0
+10906,2027-06-25,1050,23,Female,Madurai,P008,9,5,Credit Card,30,Returned,Surgical Mask,Personal Care,120,1026.0
+10907,2027-06-26,1171,41,Male,Coimbatore,P009,3,0,COD,66,Completed,Pain Relief Gel,Pain Relief,250,750.0
+10908,2027-06-27,1075,35,Female,Coimbatore,P002,9,15,UPI,126,Completed,Glucose Test Strips,Diabetes Care,650,4972.5
+10909,2027-06-28,1195,40,Female,Chennai,P003,5,20,Credit Card,190,Completed,Blood Pressure Monitor,Diagnostics,1800,7200.0
+10910,2027-06-29,1012,23,Male,Chennai,P003,4,5,Credit Card,55,Completed,Blood Pressure Monitor,Diagnostics,1800,6840.0
+10911,2027-06-30,1195,46,Female,Madurai,P001,5,20,UPI,151,Completed,Glucometer,Diabetes Care,1200,4800.0
+10912,2027-07-01,1027,42,Female,Tiruppur,P008,9,15,COD,154,Completed,Surgical Mask,Personal Care,120,918.0
+10913,2027-07-02,1113,72,Female,Trichy,P006,5,15,Debit Card,48,Completed,Calcium Tablets,Supplements,300,1275.0
+10914,2027-07-03,1182,34,Male,Tiruppur,P008,9,10,Debit Card,146,Completed,Surgical Mask,Personal Care,120,972.0
+10915,2027-07-04,1194,63,Male,Tiruppur,P009,5,5,Credit Card,108,Completed,Pain Relief Gel,Pain Relief,250,1187.5
+10916,2027-07-05,1049,41,Female,Coimbatore,P005,6,15,Debit Card,86,Completed,Vitamin D Tablets,Supplements,450,2295.0
+10917,2027-07-06,1144,28,Female,Trichy,P003,2,10,Debit Card,124,Completed,Blood Pressure Monitor,Diagnostics,1800,3240.0
+10918,2027-07-07,1130,43,Female,Coimbatore,P005,4,10,UPI,143,Completed,Vitamin D Tablets,Supplements,450,1620.0
+10919,2027-07-08,1060,68,Male,Trichy,P005,7,20,Credit Card,160,Cancelled,Vitamin D Tablets,Supplements,450,2520.0
+10920,2027-07-09,1182,51,Male,Salem,P005,5,20,COD,196,Completed,Vitamin D Tablets,Supplements,450,1800.0
+10921,2027-07-10,1030,45,Male,Coimbatore,P003,4,10,Credit Card,100,Completed,Blood Pressure Monitor,Diagnostics,1800,6480.0
+10922,2027-07-11,1084,20,Female,Coimbatore,P010,4,20,UPI,107,Completed,First Aid Kit,First Aid,750,2400.0
+10923,2027-07-12,1166,28,Female,Coimbatore,P004,8,15,Debit Card,129,Returned,Digital Thermometer,Diagnostics,350,2380.0
+10924,2027-07-13,1028,55,Female,Madurai,P009,3,0,COD,55,Returned,Pain Relief Gel,Pain Relief,250,750.0
+10925,2027-07-14,1025,31,Female,Coimbatore,P010,5,15,Credit Card,47,Cancelled,First Aid Kit,First Aid,750,3187.5
+10926,2027-07-15,1096,68,Female,Chennai,P009,6,10,Debit Card,151,Completed,Pain Relief Gel,Pain Relief,250,1350.0
+10927,2027-07-16,1125,43,Male,Chennai,P002,6,10,Credit Card,109,Completed,Glucose Test Strips,Diabetes Care,650,3510.0
+10928,2027-07-17,1010,65,Female,Trichy,P008,9,15,COD,81,Completed,Surgical Mask,Personal Care,120,918.0
+10929,2027-07-18,1188,38,Female,Salem,P008,9,20,Credit Card,199,Completed,Surgical Mask,Personal Care,120,864.0
+10930,2027-07-19,1042,71,Female,Madurai,P007,9,20,Credit Card,44,Completed,Hand Sanitizer,Personal Care,180,1296.0
+10931,2027-07-20,1040,73,Male,Trichy,P008,8,10,Credit Card,156,Completed,Surgical Mask,Personal Care,120,864.0
+10932,2027-07-21,1077,56,Female,Chennai,P003,1,5,Debit Card,39,Completed,Blood Pressure Monitor,Diagnostics,1800,1710.0
+10933,2027-07-22,1105,47,Male,Madurai,P006,8,20,COD,87,Completed,Calcium Tablets,Supplements,300,1920.0
+10934,2027-07-23,1118,25,Male,Madurai,P001,3,15,COD,93,Completed,Glucometer,Diabetes Care,1200,3060.0
+10935,2027-07-24,1042,68,Male,Salem,P007,9,20,Debit Card,122,Completed,Hand Sanitizer,Personal Care,180,1296.0
+10936,2027-07-25,1047,37,Male,Madurai,P001,4,15,Debit Card,34,Cancelled,Glucometer,Diabetes Care,1200,4080.0
+10937,2027-07-26,1165,65,Male,Coimbatore,P009,6,10,Debit Card,177,Completed,Pain Relief Gel,Pain Relief,250,1350.0
+10938,2027-07-27,1022,49,Female,Madurai,P001,5,20,UPI,97,Completed,Glucometer,Diabetes Care,1200,4800.0
+10939,2027-07-28,1185,39,Female,Salem,P001,4,15,Credit Card,23,Completed,Glucometer,Diabetes Care,1200,4080.0
+10940,2027-07-29,1107,24,Male,Trichy,P007,9,10,Credit Card,163,Completed,Hand Sanitizer,Personal Care,180,1458.0
+10941,2027-07-30,1027,26,Male,Salem,P002,7,5,COD,111,Completed,Glucose Test Strips,Diabetes Care,650,4322.5
+10942,2027-07-31,1041,62,Male,Salem,P005,6,15,Credit Card,159,Completed,Vitamin D Tablets,Supplements,450,2295.0
+10943,2027-08-01,1080,18,Female,Chennai,P008,9,5,UPI,185,Completed,Surgical Mask,Personal Care,120,1026.0
+10944,2027-08-02,1162,46,Female,Coimbatore,P008,7,5,Debit Card,92,Completed,Surgical Mask,Personal Care,120,798.0
+10945,2027-08-03,1160,25,Male,Chennai,P003,3,0,COD,119,Returned,Blood Pressure Monitor,Diagnostics,1800,5400.0
+10946,2027-08-04,1089,73,Female,Trichy,P007,9,20,COD,188,Completed,Hand Sanitizer,Personal Care,180,1296.0
+10947,2027-08-05,1066,71,Female,Tiruppur,P003,3,15,Credit Card,140,Completed,Blood Pressure Monitor,Diagnostics,1800,4590.0
+10948,2027-08-06,1012,21,Male,Trichy,P006,5,5,COD,179,Completed,Calcium Tablets,Supplements,300,1425.0
+10949,2027-08-07,1168,52,Male,Coimbatore,P006,5,0,Debit Card,28,Cancelled,Calcium Tablets,Supplements,300,1500.0
+10950,2027-08-08,1073,20,Female,Madurai,P003,3,10,COD,37,Completed,Blood Pressure Monitor,Diagnostics,1800,4860.0
+10951,2027-08-09,1076,71,Female,Salem,P007,9,15,Debit Card,182,Completed,Hand Sanitizer,Personal Care,180,1377.0
+10952,2027-08-10,1090,62,Female,Tiruppur,P003,4,5,UPI,80,Cancelled,Blood Pressure Monitor,Diagnostics,1800,6840.0
+10953,2027-08-11,1010,57,Male,Coimbatore,P008,9,20,UPI,72,Cancelled,Surgical Mask,Personal Care,120,864.0
+10954,2027-08-12,1096,24,Male,Chennai,P010,1,0,Debit Card,82,Cancelled,First Aid Kit,First Aid,750,750.0
+10955,2027-08-13,1176,44,Male,Salem,P004,6,5,Credit Card,133,Completed,Digital Thermometer,Diagnostics,350,1995.0
+10956,2027-08-14,1020,18,Female,Trichy,P001,7,20,COD,128,Completed,Glucometer,Diabetes Care,1200,6720.0
+10957,2027-08-15,1039,44,Female,Chennai,P004,6,5,Credit Card,130,Returned,Digital Thermometer,Diagnostics,350,1995.0
+10958,2027-08-16,1060,33,Male,Coimbatore,P007,9,15,COD,28,Completed,Hand Sanitizer,Personal Care,180,1377.0
+10959,2027-08-17,1066,55,Female,Coimbatore,P004,9,15,UPI,184,Completed,Digital Thermometer,Diagnostics,350,2677.5
+10960,2027-08-18,1065,24,Male,Trichy,P006,8,15,UPI,151,Completed,Calcium Tablets,Supplements,300,2040.0
+10961,2027-08-19,1179,61,Female,Tiruppur,P009,4,0,UPI,129,Completed,Pain Relief Gel,Pain Relief,250,1000.0
+10962,2027-08-20,1124,40,Male,Trichy,P001,6,15,COD,175,Cancelled,Glucometer,Diabetes Care,1200,6120.0
+10963,2027-08-21,1164,58,Female,Madurai,P005,7,20,UPI,190,Completed,Vitamin D Tablets,Supplements,450,2520.0
+10964,2027-08-22,1152,28,Female,Chennai,P007,8,5,UPI,70,Completed,Hand Sanitizer,Personal Care,180,1368.0
+10965,2027-08-23,1155,59,Male,Tiruppur,P001,4,10,UPI,173,Returned,Glucometer,Diabetes Care,1200,4320.0
+10966,2027-08-24,1130,70,Male,Salem,P004,9,20,UPI,177,Completed,Digital Thermometer,Diagnostics,350,2520.0
+10967,2027-08-25,1159,50,Male,Madurai,P006,6,20,Credit Card,39,Completed,Calcium Tablets,Supplements,300,1440.0
+10968,2027-08-26,1057,67,Male,Tiruppur,P002,9,15,UPI,18,Completed,Glucose Test Strips,Diabetes Care,650,4972.5
+10969,2027-08-27,1078,53,Male,Chennai,P010,4,0,UPI,73,Completed,First Aid Kit,First Aid,750,3000.0
+10970,2027-08-28,1194,54,Female,Coimbatore,P005,3,5,Credit Card,170,Completed,Vitamin D Tablets,Supplements,450,1282.5
+10971,2027-08-29,1029,58,Male,Salem,P010,3,0,Credit Card,129,Completed,First Aid Kit,First Aid,750,2250.0
+10972,2027-08-30,1015,34,Male,Trichy,P001,1,5,COD,61,Completed,Glucometer,Diabetes Care,1200,1140.0
+10973,2027-08-31,1012,52,Male,Chennai,P006,6,5,Debit Card,98,Completed,Calcium Tablets,Supplements,300,1710.0
+10974,2027-09-01,1101,65,Male,Madurai,P006,6,0,UPI,151,Completed,Calcium Tablets,Supplements,300,1800.0
+10975,2027-09-02,1156,22,Male,Madurai,P004,7,20,UPI,62,Completed,Digital Thermometer,Diagnostics,350,1960.0
+10976,2027-09-03,1084,65,Female,Coimbatore,P008,9,5,UPI,196,Completed,Surgical Mask,Personal Care,120,1026.0
+10977,2027-09-04,1125,49,Male,Coimbatore,P004,7,0,COD,87,Completed,Digital Thermometer,Diagnostics,350,2450.0
+10978,2027-09-05,1103,20,Male,Salem,P008,8,5,UPI,50,Completed,Surgical Mask,Personal Care,120,912.0
+10979,2027-09-06,1024,69,Male,Trichy,P008,8,10,Debit Card,77,Completed,Surgical Mask,Personal Care,120,864.0
+10980,2027-09-07,1149,64,Female,Salem,P005,8,20,Credit Card,17,Completed,Vitamin D Tablets,Supplements,450,2880.0
+10981,2027-09-08,1138,52,Female,Coimbatore,P004,9,15,COD,11,Completed,Digital Thermometer,Diagnostics,350,2677.5
+10982,2027-09-09,1110,69,Male,Coimbatore,P002,7,5,Credit Card,114,Returned,Glucose Test Strips,Diabetes Care,650,4322.5
+10983,2027-09-10,1078,31,Male,Madurai,P003,4,10,UPI,134,Completed,Blood Pressure Monitor,Diagnostics,1800,6480.0
+10984,2027-09-11,1101,65,Female,Coimbatore,P003,5,15,UPI,119,Completed,Blood Pressure Monitor,Diagnostics,1800,7650.0
+10985,2027-09-12,1146,48,Female,Tiruppur,P004,6,15,UPI,95,Completed,Digital Thermometer,Diagnostics,350,1785.0
+10986,2027-09-13,1142,48,Female,Chennai,P004,5,5,Debit Card,178,Cancelled,Digital Thermometer,Diagnostics,350,1662.5
+10987,2027-09-14,1162,34,Male,Coimbatore,P010,4,0,Debit Card,129,Completed,First Aid Kit,First Aid,750,3000.0
+10988,2027-09-15,1128,41,Male,Salem,P005,7,5,COD,136,Completed,Vitamin D Tablets,Supplements,450,2992.5
+10989,2027-09-16,1058,69,Female,Trichy,P004,7,10,Credit Card,192,Completed,Digital Thermometer,Diagnostics,350,2205.0
+10990,2027-09-17,1076,40,Male,Trichy,P010,4,15,UPI,25,Completed,First Aid Kit,First Aid,750,2550.0
+10991,2027-09-18,1150,35,Female,Trichy,P008,9,5,UPI,71,Completed,Surgical Mask,Personal Care,120,1026.0
+10992,2027-09-19,1198,67,Female,Tiruppur,P006,4,0,UPI,122,Completed,Calcium Tablets,Supplements,300,1200.0
+10993,2027-09-20,1036,71,Female,Salem,P006,5,5,UPI,185,Completed,Calcium Tablets,Supplements,300,1425.0
+10994,2027-09-21,1173,31,Male,Tiruppur,P008,9,20,Debit Card,167,Completed,Surgical Mask,Personal Care,120,864.0
+10995,2027-09-22,1164,67,Female,Coimbatore,P007,9,0,Credit Card,21,Completed,Hand Sanitizer,Personal Care,180,1620.0
+10996,2027-09-23,1022,32,Female,Chennai,P010,5,10,Credit Card,44,Completed,First Aid Kit,First Aid,750,3375.0
+10997,2027-09-24,1127,32,Male,Trichy,P010,5,15,COD,20,Completed,First Aid Kit,First Aid,750,3187.5
+10998,2027-09-25,1080,23,Female,Salem,P008,9,5,Debit Card,73,Completed,Surgical Mask,Personal Care,120,1026.0
+10999,2027-09-26,1189,44,Male,Trichy,P002,6,0,UPI,59,Completed,Glucose Test Strips,Diabetes Care,650,3900.0
+11000,2027-09-27,1100,32,Female,Tiruppur,P009,7,20,Credit Card,158,Completed,Pain Relief Gel,Pain Relief,250,1400.0
